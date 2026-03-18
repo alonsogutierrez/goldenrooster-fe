@@ -1,0 +1,66 @@
+<svg width="295" height="64" viewBox="0 0 295 64" fill="none"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="The Golden Rooster – Sheet Metal Roofing">
+
+  <!--
+    ═══════════════════════════════════════════════════
+    ICON: Three-house roofing silhouette
+    Based on official brand mark.
+    Draw order: left → right → center (center is tallest / front)
+    evenodd fill-rule creates transparent window cutouts.
+    ═══════════════════════════════════════════════════
+  -->
+
+  <!-- ── Left house ── -->
+  <polygon points="0,32 16,15 32,32" fill="#CC2B2B"/>
+  <path fill-rule="evenodd" fill="#D4A020"
+        d="M0,32 L32,32 L32,60 L0,60 Z
+           M7,39 L17,39 L17,49 L7,49 Z"/>
+
+  <!-- ── Right house ── -->
+  <polygon points="52,28 66,12 80,28" fill="#CC2B2B"/>
+  <path fill-rule="evenodd" fill="#D4A020"
+        d="M52,28 L80,28 L80,60 L52,60 Z
+           M63,37 L73,37 L73,47 L63,47 Z"/>
+
+  <!-- ── Center house (front, tallest) ── -->
+  <!-- Chimney — drawn before roof so red overlaps base naturally -->
+  <rect x="51" y="4" width="6" height="14" fill="#D4A020"/>
+  <!-- Roof -->
+  <polygon points="20,22 41,4 62,22" fill="#CC2B2B"/>
+  <!-- Body with two window cutouts -->
+  <path fill-rule="evenodd" fill="#D4A020"
+        d="M20,22 L62,22 L62,60 L20,60 Z
+           M26,32 L36,32 L36,42 L26,42 Z
+           M41,32 L51,32 L51,42 L41,42 Z"/>
+
+  <!-- Ground accent line -->
+  <rect x="0" y="61" width="80" height="2" fill="#D4A020" opacity="0.30" rx="1"/>
+
+  <!--
+    ═══════════════════════════════════════════════════
+    TEXT
+    ═══════════════════════════════════════════════════
+  -->
+
+  <!-- Primary brand name -->
+  <text x="94" y="29"
+        font-family="'Montserrat','Trebuchet MS','Arial Black',Arial,sans-serif"
+        font-weight="900"
+        font-size="21"
+        fill="#D4A020"
+        letter-spacing="2.5">SHEET METAL</text>
+
+  <!-- Red accent separator under main text -->
+  <rect x="94" y="36" width="46" height="1.5" fill="#CC2B2B" opacity="0.65" rx="0.75"/>
+
+  <!-- Sub-brand line -->
+  <text x="94" y="50"
+        font-family="'Montserrat','Trebuchet MS',Arial,sans-serif"
+        font-weight="500"
+        font-size="7.5"
+        fill="#D4A020"
+        letter-spacing="2.0"
+        opacity="0.68">THE GOLDEN ROOSTER ROOFING</text>
+
+</svg>
