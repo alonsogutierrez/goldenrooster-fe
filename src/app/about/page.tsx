@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import AboutHero from "@/components/about/AboutHero";
 import OurStory from "@/components/about/OurStory";
+import MissionVision from "@/components/about/MissionVision";
 import ValuesSection from "@/components/about/ValuesSection";
 import TeamSection from "@/components/about/TeamSection";
 import CTABanner from "@/components/home/CTABanner";
@@ -29,6 +30,7 @@ export default function AboutPage() {
         ]}
       />
       <OurStory />
+      <MissionVision />
       <StatsSection />
       <ValuesSection />
       <TeamSection />

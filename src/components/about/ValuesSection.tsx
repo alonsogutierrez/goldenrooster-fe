@@ -1,17 +1,27 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Medal, Scale, Lightbulb } from "lucide-react";
+import { Medal, Scale, Gem, ShieldCheck, HeartHandshake, TrendingUp } from "lucide-react";
 import SectionHeader from "@/components/ui/SectionHeader";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { VALUES } from "@/lib/constants";
 
-const iconMap: Record<string, React.ElementType> = { Medal, Scale, Lightbulb };
+const iconMap: Record<string, React.ElementType> = {
+  Medal,
+  Scale,
+  Gem,
+  ShieldCheck,
+  HeartHandshake,
+  TrendingUp,
+};
 
 const cardGradients = [
   "from-primary-dark to-primary",
   "from-accent-dark to-accent",
   "from-steel-dark to-steel",
+  "from-primary to-steel",
+  "from-accent to-primary",
+  "from-steel to-accent",
 ];
 
 export default function ValuesSection() {
@@ -32,7 +42,7 @@ export default function ValuesSection() {
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {VALUES.map((val, i) => {
             const Icon = iconMap[val.icon] ?? Medal;
             return (

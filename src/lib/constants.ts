@@ -3,11 +3,11 @@
 ───────────────────────────────────────────────────────────── */
 
 export const SITE = {
-  name: "Sheet Metal",
-  fullName: "The Golden Rooster Sheet Metal Roofing",
-  tagline: "Precision in Every Panel",
+  name: "Golden Rooster",
+  fullName: "Golden Rooster Construction",
+  tagline: "Built Strong. Roofed Right.",
   description:
-    "The Golden Rooster Sheet Metal Roofing — industry-leading metal roofing, fabrication, and construction services with over 25 years of precision craftsmanship.",
+    "Golden Rooster Construction — professional wood framing and metal roofing services for residential and commercial projects. Quality work, honest pricing, results you can count on.",
   phone: "(800) 543-3862",
   phoneHref: "tel:+18005433862",
   email: "info@sheetmetalservices.com",
@@ -42,12 +42,8 @@ export const NAV_LINKS = [
     href: "/services",
     label: "Services",
     dropdown: [
-      { href: "/services#metal-roofing", label: "Metal Roofing Systems" },
-      { href: "/services#fabrication", label: "Sheet Metal Fabrication" },
-      { href: "/services#gutters", label: "Gutter & Drainage" },
-      { href: "/services#skylights", label: "Skylights & Ventilation" },
-      { href: "/services#repairs", label: "Repairs & Maintenance" },
-      { href: "/services#commercial", label: "Commercial Projects" },
+      { href: "/services#wood-framing", label: "Wood Framing" },
+      { href: "/services#metal-roofing", label: "Metal Roofing — Repair & Remodeling" },
     ],
   },
   { href: "/about", label: "About Us" },
@@ -59,58 +55,35 @@ export const NAV_LINKS = [
 ───────────────────────────────────── */
 export const SERVICES = [
   {
-    id: "metal-roofing",
-    icon: "Building2",
-    title: "Metal Roofing Systems",
+    id: "wood-framing",
+    icon: "Hammer",
+    title: "Wood Framing",
     description:
-      "Standing seam, R-panel, and corrugated metal roofing systems engineered for lasting protection, energy efficiency, and architectural beauty.",
-    features: ["Standing Seam", "R-Panel Systems", "Corrugated Metal", "Metal Tile"],
-    color: "from-blue-600 to-steel",
-  },
-  {
-    id: "fabrication",
-    icon: "Layers",
-    title: "Sheet Metal Fabrication",
-    description:
-      "Custom-cut, bent, and finished metal components precision-crafted in our state-of-the-art facility to exact project specifications.",
-    features: ["Custom Cutting", "Precision Bending", "CNC Fabrication", "On-site Forming"],
-    color: "from-primary to-steel",
-  },
-  {
-    id: "gutters",
-    icon: "Droplets",
-    title: "Gutter & Drainage Systems",
-    description:
-      "Seamless gutters, downspouts, and complete drainage solutions that protect your investment from water damage for decades to come.",
-    features: ["Seamless Gutters", "Custom Downspouts", "Box Gutters", "Drainage Design"],
-    color: "from-steel to-primary",
-  },
-  {
-    id: "skylights",
-    icon: "Sun",
-    title: "Skylights & Ventilation",
-    description:
-      "Natural light and ventilation systems designed for maximum energy efficiency, comfort, and long-term structural integrity.",
-    features: ["Fixed Skylights", "Vented Units", "Roof Ventilation", "Solar Tubes"],
-    color: "from-amber-500 to-accent",
-  },
-  {
-    id: "repairs",
-    icon: "Wrench",
-    title: "Repairs & Maintenance",
-    description:
-      "Fast, reliable repair and maintenance programs that extend the service life of your metal systems and prevent costly future damage.",
-    features: ["Leak Repairs", "Panel Replacement", "Preventive Programs", "Emergency Service"],
-    color: "from-green-600 to-steel",
-  },
-  {
-    id: "commercial",
-    icon: "Briefcase",
-    title: "Commercial Projects",
-    description:
-      "Large-scale commercial, industrial, and institutional metal roofing and façade projects delivered on schedule and within budget.",
-    features: ["Warehouses", "Office Buildings", "Industrial Facilities", "Institutional"],
+      "At Golden Rooster Construction, we specialize in professional wood framing for both residential and commercial projects. Whether you're building a new home, a multi-unit development, or a commercial facility, our skilled framing crews deliver precise, code-compliant structures built to last.\n\nWe work closely with contractors, developers, and homeowners from the earliest stages of construction — ensuring every wall, floor system, and roof structure is framed with accuracy, efficiency, and craftsmanship. From simple single-family homes to complex commercial builds, Golden Rooster has the experience and manpower to get your project framed right, on time, and within budget.",
+    features: [
+      "Residential wood framing (new construction)",
+      "Commercial wood framing (offices, retail, warehouses, multi-family)",
+      "Structural framing & load-bearing wall systems",
+      "Floor & ceiling joist framing",
+      "Custom and complex architectural framing",
+    ],
     color: "from-primary-dark to-primary",
+  },
+  {
+    id: "metal-roofing",
+    icon: "HardHat",
+    title: "Metal Roofing — Repair & Remodeling",
+    description:
+      "A damaged or aging roof is more than an inconvenience — it's a risk to your entire property. Golden Rooster's metal roofing team provides expert repair and remodeling services for both residential and commercial buildings, restoring the integrity, performance, and appearance of your roof with quality materials and proven techniques.\n\nWhether you're dealing with leaks, storm damage, worn panels, or simply looking to upgrade to a more durable and energy-efficient metal roofing system, Golden Rooster brings the skills and attention to detail your property deserves.",
+    features: [
+      "Metal roof inspection & damage assessment",
+      "Leak repair and panel replacement",
+      "Full metal roof remodeling & retrofitting",
+      "Re-roofing over existing structures",
+      "Gutters, flashing & trim work",
+      "Residential & commercial metal roofing solutions",
+    ],
+    color: "from-accent-dark to-accent",
   },
 ];
 
@@ -130,39 +103,39 @@ export const STATS = [
 export const WHY_US = [
   {
     icon: "Shield",
-    title: "25+ Years of Expertise",
+    title: "The Golden Rooster Guarantee",
     description:
-      "Decades of hands-on experience in commercial and residential sheet metal work across every climate and building type.",
+      "When you see the Golden Rooster, you know the job will be done right. Our name is our commitment on every single project.",
   },
   {
     icon: "Gem",
-    title: "Premium Materials Only",
+    title: "Quality Work, Always",
     description:
-      "We source exclusively from certified manufacturers, ensuring every panel, gutter, and fastener meets our strict quality standards.",
+      "We hold ourselves to the highest standards of craftsmanship — whether framing a wall or restoring a roof, we never cut corners.",
   },
   {
     icon: "HardHat",
-    title: "Certified Expert Craftsmen",
+    title: "Residential & Commercial",
     description:
-      "Our OSHA-trained, manufacturer-certified team brings unrivaled precision and pride to every single project.",
+      "From single-family homes to large commercial facilities, we bring the same level of skill, dedication, and precision to every project type.",
   },
   {
     icon: "FileCheck",
-    title: "Industry-Leading Warranty",
+    title: "Honest, Transparent Pricing",
     description:
-      "All workmanship is backed by our comprehensive warranty program, giving you complete peace of mind long after installation.",
+      "No surprises, no hidden costs. We provide clear, detailed estimates so you always know exactly what you're paying for.",
   },
   {
     icon: "Clock",
-    title: "On-Time, Every Time",
+    title: "On Schedule, Within Budget",
     description:
-      "Meticulous project planning and seasoned project managers mean we consistently deliver on schedule without sacrificing quality.",
+      "We understand that time is money in construction. Our crews are organized to deliver on time and within the agreed budget — every time.",
   },
   {
     icon: "HeartHandshake",
-    title: "Dedicated Client Support",
+    title: "Any Scale, Any State",
     description:
-      "From free estimate to project completion and beyond, our team is always available to answer questions and provide support.",
+      "We proudly serve residential and commercial clients across multiple states, with the hands-on dedication and capacity to handle projects of any scale.",
   },
 ];
 
@@ -290,26 +263,53 @@ export const TEAM = [
 ];
 
 /* ─────────────────────────────────────
+   Mission & Vision
+───────────────────────────────────── */
+export const MISSION =
+  "To deliver exceptional wood framing and metal roofing solutions with precision, reliability, and craftsmanship — building structures that stand the test of time while exceeding our clients' expectations on every project, on schedule, and within budget.";
+
+export const VISION =
+  "To become the most trusted and sought-after framing and metal roofing contractor in our region — recognized for our unwavering commitment to quality, our skilled team, and our ability to transform every client's vision into a durable, lasting reality.";
+
+/* ─────────────────────────────────────
    Company Values
 ───────────────────────────────────── */
 export const VALUES = [
   {
-    icon: "Medal",
-    title: "Excellence",
+    icon: "Gem",
+    title: "Quality Without Compromise",
     description:
-      "We hold ourselves to the highest standards in every task — from site preparation to final inspection. Average is never acceptable.",
+      "We hold ourselves to the highest standards of craftsmanship in every wood frame we build and every metal roof we install. Quality is not the exception — it is the foundation of everything we do.",
   },
   {
     icon: "Scale",
-    title: "Integrity",
+    title: "Integrity & Honesty",
     description:
-      "Transparent pricing, honest communication, and doing what we say we'll do. Our reputation is built one handshake at a time.",
+      "We operate with full transparency in our estimates, timelines, and communication. Our clients can always count on us to be straightforward, accountable, and dependable — from the first conversation to the final nail.",
   },
   {
-    icon: "Lightbulb",
-    title: "Innovation",
+    icon: "ShieldCheck",
+    title: "Safety First",
     description:
-      "We continuously invest in the latest equipment, techniques, and materials to bring our clients the best the industry has to offer.",
+      "The well-being of our team and the people who will live and work in the structures we build is our top priority. We follow strict safety protocols on every job site, without exception.",
+  },
+  {
+    icon: "HeartHandshake",
+    title: "Client Partnership",
+    description:
+      "We don't just complete projects — we build relationships. We listen, collaborate, and work alongside our clients to ensure their goals are met and their investment is protected.",
+  },
+  {
+    icon: "Medal",
+    title: "Excellence in Execution",
+    description:
+      "We take pride in getting the job done right the first time. Through skilled labor, careful planning, and attention to detail, we deliver results that speak for themselves.",
+  },
+  {
+    icon: "TrendingUp",
+    title: "Growth & Innovation",
+    description:
+      "As a growing company, we are committed to continuous improvement — embracing new techniques, materials, and industry best practices to better serve our clients and strengthen our team.",
   },
 ];
 
@@ -324,11 +324,7 @@ export const FOOTER_LINKS = {
     { href: "/contact", label: "Careers" },
   ],
   services: [
+    { href: "/services#wood-framing", label: "Wood Framing" },
     { href: "/services#metal-roofing", label: "Metal Roofing" },
-    { href: "/services#fabrication", label: "Fabrication" },
-    { href: "/services#gutters", label: "Gutter Systems" },
-    { href: "/services#skylights", label: "Skylights" },
-    { href: "/services#repairs", label: "Repairs" },
-    { href: "/services#commercial", label: "Commercial" },
   ],
 };

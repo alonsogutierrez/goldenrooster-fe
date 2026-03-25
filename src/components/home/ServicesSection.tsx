@@ -2,24 +2,16 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import {
-  Building2, Layers, Droplets, Sun, Wrench, Briefcase, ArrowRight,
-} from "lucide-react";
+import { Hammer, HardHat, ArrowRight } from "lucide-react";
 import SectionHeader from "@/components/ui/SectionHeader";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { SERVICES } from "@/lib/constants";
 
-const iconMap: Record<string, React.ElementType> = {
-  Building2, Layers, Droplets, Sun, Wrench, Briefcase,
-};
+const iconMap: Record<string, React.ElementType> = { Hammer, HardHat };
 
 const cardColors = [
-  "from-primary to-primary-light",
-  "from-steel-dark to-steel",
-  "from-primary to-steel",
-  "from-accent-dark to-accent",
   "from-primary-dark to-primary",
-  "from-steel to-primary-light",
+  "from-accent-dark to-accent",
 ];
 
 export default function ServicesSection() {
@@ -43,13 +35,13 @@ export default function ServicesSection() {
           <SectionHeader
             tag="What We Do"
             title="Our"
-            titleHighlight="Expertise"
-            subtitle="From precision metal fabrication to complete roofing systems, we deliver excellence across the full spectrum of sheet metal services."
+            titleHighlight="Services"
+            subtitle="From structural wood framing to metal roofing repair and remodeling — Golden Rooster Construction delivers quality work for residential and commercial projects."
             align="center"
           />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {SERVICES.map((service, i) => {
             const Icon = iconMap[service.icon] ?? Building2;
             return (
