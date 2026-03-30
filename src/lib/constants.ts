@@ -237,14 +237,14 @@ export const TESTIMONIALS = [
 ───────────────────────────────────── */
 export const TEAM = [
   {
-    name: "Robert A. Johnson",
-    title: "Founder & CEO",
+    name: "Guillermo Andrade Moncada",
+    title: "Owner & Founder",
     bio: "25+ years of industry leadership, pioneering precision metal systems across the Southwest.",
     avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
   },
   {
-    name: "Sarah Mitchell",
-    title: "Director of Operations",
+    name: "Iván Said Rodriguez Mauricio",
+    title: "General Manager",
     bio: "Master of project logistics, ensuring every job is delivered on time with zero compromises.",
     avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
   },
