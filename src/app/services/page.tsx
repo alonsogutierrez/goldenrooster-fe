@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  Building2, Layers, Droplets, Sun, Wrench, Briefcase, ArrowRight, CheckCircle2,
-} from "lucide-react";
+import { Hammer, HardHat, ArrowRight, CheckCircle2 } from "lucide-react";
 import AboutHero from "@/components/about/AboutHero";
 import SectionHeader from "@/components/ui/SectionHeader";
 import ScrollReveal from "@/components/ui/ScrollReveal";
@@ -14,42 +12,35 @@ import { SERVICES } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Our Services",
   description:
-    "Explore Sheet Metal's full range of services: metal roofing systems, custom fabrication, gutter systems, skylights, repairs, and large-scale commercial projects.",
+    "Golden Rooster Construction offers professional wood framing and metal roofing repair & remodeling services for residential and commercial projects.",
   openGraph: {
-    title: "Our Services | Sheet Metal",
+    title: "Our Services | Golden Rooster Construction",
     description:
-      "Full-spectrum sheet metal services — roofing, fabrication, gutters, skylights, and more.",
+      "Wood framing and metal roofing — quality work, honest pricing, results you can count on.",
   },
 };
 
-const iconMap: Record<string, React.ElementType> = {
-  Building2, Layers, Droplets, Sun, Wrench, Briefcase,
-};
+const iconMap: Record<string, React.ElementType> = { Hammer, HardHat };
 
 const serviceImages = [
-  "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=900&q=80",
   "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=900&q=80",
+  "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80",
 ];
 
 const PROCESS_STEPS = [
-  { n: "01", title: "Free Consultation", desc: "We assess your needs and project scope at no cost or obligation." },
-  { n: "02", title: "Detailed Proposal", desc: "Receive a comprehensive written proposal with transparent pricing within 48 hours." },
-  { n: "03", title: "Precision Fabrication", desc: "Custom components fabricated to exact specifications in our facility." },
-  { n: "04", title: "Expert Installation", desc: "Certified crew installs with meticulous care and strict safety protocols." },
-  { n: "05", title: "Quality Inspection", desc: "Multi-point quality review ensures every detail meets our high standards." },
-  { n: "06", title: "Ongoing Support", desc: "Warranty-backed follow-up care and maintenance programs available." },
+  { n: "01", title: "Free Consultation", desc: "We assess your project needs and site conditions at no cost or obligation." },
+  { n: "02", title: "Detailed Proposal", desc: "Receive a comprehensive written proposal with transparent, itemized pricing within 48 hours." },
+  { n: "03", title: "Material & Crew Scheduling", desc: "We coordinate materials procurement and assign the right crew for your project scope." },
+  { n: "04", title: "Expert Construction", desc: "Our skilled team executes every phase with precision, safety, and strict code compliance." },
+  { n: "05", title: "Quality Inspection", desc: "A thorough review ensures every detail meets our high standards before we consider the job done." },
 ];
 
 export default function ServicesPage() {
   return (
     <>
       <AboutHero
-        title="Full-Spectrum Sheet Metal Services"
-        subtitle="From precision custom fabrication to large-scale commercial roofing — one trusted partner for every metal need."
+        title="Wood Framing & Metal Roofing Services"
+        subtitle="Professional construction and roofing solutions for residential and commercial projects — quality work, honest pricing, results you can count on."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services" },
@@ -60,7 +51,7 @@ export default function ServicesPage() {
       <section className="section-padding bg-white" aria-label="Service details">
         <div className="container-xl space-y-24">
           {SERVICES.map((service, i) => {
-            const Icon = iconMap[service.icon] ?? Building2;
+            const Icon = iconMap[service.icon] ?? Hammer;
             const isEven = i % 2 === 0;
             return (
               <ScrollReveal key={service.id} direction="up" delay={0.05}>
@@ -92,7 +83,11 @@ export default function ServicesPage() {
                       {service.title}
                     </h2>
                     <div className="accent-line" />
-                    <p className="text-gray-500 leading-relaxed">{service.description}</p>
+                    <div className="space-y-3">
+                      {service.description.split("\n\n").map((para, pi) => (
+                        <p key={pi} className="text-gray-500 leading-relaxed">{para}</p>
+                      ))}
+                    </div>
 
                     <ul className="space-y-2.5">
                       {service.features.map((feat) => (
@@ -124,8 +119,8 @@ export default function ServicesPage() {
             <SectionHeader
               tag="How We Work"
               title="Our Proven"
-              titleHighlight="6-Step Process"
-              subtitle="A transparent, client-first process designed to deliver exceptional results on every project."
+              titleHighlight="Process"
+              subtitle="A transparent, client-first approach designed to deliver exceptional results on every project — on time and within budget."
               align="center"
             />
           </div>

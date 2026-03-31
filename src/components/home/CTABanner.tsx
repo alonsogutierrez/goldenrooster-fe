@@ -58,9 +58,9 @@ export default function CTABanner() {
               className="font-heading font-black text-white mb-5 leading-tight"
               style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)" }}
             >
-              Ready to Transform Your
+              Ready to Build or Restore
               <br />
-              <span className="text-accent">Roof?</span>
+              <span className="text-accent">With Confidence?</span>
             </h2>
           </ScrollReveal>
 

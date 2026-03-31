@@ -19,7 +19,7 @@ export default function WhyUsSection() {
     <section
       id="why-us"
       className="section-padding bg-gray-50 relative overflow-hidden"
-      aria-label="Why Choose Sheet Metal"
+      aria-label="Why Choose Golden Rooster Construction"
     >
       {/* Background decoration */}
       <div
@@ -85,7 +85,7 @@ export default function WhyUsSection() {
               tag="Why Choose Us"
               title="Built on Trust,"
               titleHighlight="Proven by Results"
-              subtitle="We don't just install metal — we build relationships and deliver projects that stand the test of time."
+              subtitle="Whether we're framing the walls of your next project or restoring the roof over your head, Golden Rooster brings the same commitment: quality work, honest pricing, and results you can count on."
               align="left"
             />
 
