@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Hammer, HardHat, ArrowRight } from "lucide-react";
+import { Hammer, HardHat, Building2, ArrowRight } from "lucide-react";
 import SectionHeader from "@/components/ui/SectionHeader";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { SERVICES } from "@/lib/constants";
