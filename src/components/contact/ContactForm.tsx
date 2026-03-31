@@ -36,9 +36,17 @@ export default function ContactForm() {
     if (form.honeypot) return; // bot trap
     setStatus("loading");
 
-    // TODO: Replace with your form submission endpoint (e.g., Resend, Formspree, etc.)
-    await new Promise((r) => setTimeout(r, 1600));
-    setStatus("success");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error("Failed");
+      setStatus("success");
+    } catch {
+      setStatus("error");
+    }
   };
 
   if (status === "success") {

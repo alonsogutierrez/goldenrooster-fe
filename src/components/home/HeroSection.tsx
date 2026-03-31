@@ -7,8 +7,8 @@ import { SITE } from "@/lib/constants";
 
 const TRUST_BADGES = [
   { icon: ShieldCheck, label: "Licensed & Fully Insured" },
-  { icon: Award,       label: "25+ Years of Excellence" },
-  { icon: Clock,       label: "On-Time Guarantee" },
+  { icon: Award,       label: "Residential & Commercial" },
+  { icon: Clock,       label: "On-Time, Within Budget" },
 ];
 
 export default function HeroSection() {
@@ -70,7 +70,7 @@ export default function HeroSection() {
           >
             <span className="inline-flex items-center gap-3 text-accent font-semibold text-xs tracking-[0.28em] uppercase">
               <span className="block w-10 h-[2px] bg-accent rounded-full" />
-              TRUSTED SINCE 1998
+              GOLDEN ROOSTER CONSTRUCTION
               <span className="block w-10 h-[2px] bg-accent rounded-full" />
             </span>
           </motion.div>
@@ -83,11 +83,11 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           >
-            PRECISION IN
+            BUILT STRONG.
             <br />
-            <span className="text-accent">EVERY</span>{" "}
+            <span className="text-accent">ROOFED</span>{" "}
             <span className="relative">
-              PANEL
+              RIGHT.
               <motion.span
                 className="absolute -bottom-2 left-0 right-0 h-[3px] bg-accent/50 rounded-full"
                 initial={{ scaleX: 0 }}
@@ -105,8 +105,8 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
           >
-            Industry-leading sheet metal roofing, fabrication, and construction
-            services — built to last and engineered to impress.
+            Professional Wood Framing & Metal Roofing Services for Residential
+            and Commercial Projects.
           </motion.p>
 
           {/* CTAs */}
