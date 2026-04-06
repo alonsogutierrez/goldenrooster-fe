@@ -28,11 +28,11 @@ export default function Footer() {
 
           {/* ── Brand column ── */}
           <div className="lg:col-span-1 space-y-5">
-            <Link href="/" aria-label="Sheet Metal – Home">
-              <div className="relative h-10 w-[184px]">
+            <Link href="/" aria-label="Golden Roosters Roofing – Home">
+              <div className="relative h-20 w-[180px]">
                 <Image
-                  src="/logo-white.svg"
-                  alt="The Golden Rooster Sheet Metal Roofing"
+                  src="/logo-rooster.png"
+                  alt="Golden Roosters Roofing logo"
                   fill
                   className="object-contain object-left"
                 />

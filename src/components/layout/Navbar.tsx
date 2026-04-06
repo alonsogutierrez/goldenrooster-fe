@@ -57,15 +57,19 @@ export default function Navbar() {
               className="relative flex items-center flex-shrink-0 group"
               aria-label={`${SITE.name} – Home`}
             >
-              <div className="relative h-9 w-[166px] transition-all duration-300 group-hover:opacity-90">
+              <motion.div
+                className="relative h-14 w-[140px] transition-all duration-300 group-hover:opacity-90"
+                animate={{ x: [0, 4, 0, -4, 0] }}
+                transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+              >
                 <Image
-                  src="/logo-white.svg"
+                  src="/logo-rooster.png"
                   alt={`${SITE.fullName} logo`}
                   fill
                   className="object-contain object-left"
                   priority
                 />
-              </div>
+              </motion.div>
             </Link>
 
             {/* ── Desktop Navigation ── */}
