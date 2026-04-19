@@ -4,12 +4,17 @@ import ContactForm from "@/components/contact/ContactForm";
 import ContactInfo from "@/components/contact/ContactInfo";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Free Roofing Estimate Houston TX — Contact Us",
   description:
-    "Get a free estimate for your metal roofing or fabrication project. Contact Sheet Metal today — we respond within 48 hours.",
+    "Request a free estimate from Golden Rooster Construction, Houston's trusted metal roofing contractor. Commercial & residential roofing, wood framing. We respond within 48 hours. Call (800) 543-3862.",
+  alternates: {
+    canonical: "https://www.goldenroostersroofing.com/contact",
+  },
   openGraph: {
-    title: "Contact Us | Sheet Metal",
-    description: "Get your free, no-obligation estimate today.",
+    title: "Free Roofing Estimate Houston TX | Golden Rooster Construction",
+    description:
+      "Contact Houston's trusted metal roofing contractor. Free no-obligation estimates for commercial & residential projects. Call (800) 543-3862.",
+    url: "https://www.goldenroostersroofing.com/contact",
   },
 };
 

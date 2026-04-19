@@ -8,13 +8,17 @@ import CTABanner from "@/components/home/CTABanner";
 import StatsSection from "@/components/home/StatsSection";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Us — 25 Years of Metal Roofing in Houston TX",
   description:
-    "Learn about Sheet Metal's 25-year history, our core values, and the expert team delivering precision sheet metal roofing and fabrication across Texas.",
+    "Golden Rooster Construction has delivered expert metal roofing and wood framing in Houston, TX since 1998. Licensed, insured, and trusted by commercial & residential clients across Texas. Meet our team.",
+  alternates: {
+    canonical: "https://www.goldenroostersroofing.com/about",
+  },
   openGraph: {
-    title: "About Us | Sheet Metal",
+    title: "About Golden Rooster Construction | Metal Roofing Contractor Houston TX",
     description:
-      "25+ years of precision craftsmanship. Meet the team behind the panels.",
+      "25+ years of precision metal roofing craftsmanship in Houston, TX. Licensed & insured. Meet the team behind Golden Rooster Construction.",
+    url: "https://www.goldenroostersroofing.com/about",
   },
 };
 

@@ -25,49 +25,62 @@ const inter = Inter({
    SEO Metadata
 ───────────────────────────────────── */
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.sheetmetalservices.com"),
+  metadataBase: new URL("https://www.goldenroostersroofing.com"),
   title: {
-    default: "The Golden Rooster Sheet Metal Roofing | Professional Metal Roofing",
-    template: "%s | The Golden Rooster Sheet Metal",
+    default: "Metal Roofing Contractor Houston TX | Golden Rooster Construction",
+    template: "%s | Golden Rooster Construction Houston TX",
   },
   description:
-    "The Golden Rooster Sheet Metal Roofing — industry-leading metal roofing, fabrication, and construction services. Over 25 years of precision craftsmanship trusted by commercial and residential clients nationwide.",
+    "Licensed metal roofing contractor in Houston, TX. Expert standing seam installation, metal roof repair & remodeling, and wood framing for commercial & residential projects. 25+ years. Free estimates — call (800) 543-3862.",
   keywords: [
-    "sheet metal",
-    "metal roofing",
-    "sheet metal fabrication",
-    "commercial roofing",
-    "residential roofing",
-    "gutter systems",
-    "skylights",
-    "metal construction",
-    "standing seam",
-    "metal panels",
+    // Primary — high intent
+    "metal roofing contractor Houston TX",
+    "commercial metal roofing Houston",
+    "residential metal roofing Houston",
+    "standing seam metal roof Houston",
+    "metal roof installation Houston TX",
+    "metal roof repair Houston",
+    "roofing contractor Houston Texas",
+    // Secondary — services
+    "wood framing contractor Texas",
+    "sheet metal roofing services",
+    "metal roof remodeling Houston",
+    "gutter systems Houston",
+    "roof flashing repair Texas",
+    "commercial roofing contractor Texas",
+    "industrial roofing Houston",
+    // Long tail
+    "licensed roofing contractor Houston TX",
+    "metal roofing company near me Houston",
+    "standing seam roof installation Texas",
+    // Brand
+    "Golden Rooster Construction",
+    "Golden Rooster roofing Houston",
   ],
-  authors: [{ name: "Sheet Metal Services" }],
-  creator: "Sheet Metal Services",
+  authors: [{ name: "Golden Rooster Construction" }],
+  creator: "Golden Rooster Construction",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.sheetmetalservices.com",
-    title: "The Golden Rooster Sheet Metal Roofing | Professional Metal Roofing",
+    url: "https://www.goldenroostersroofing.com",
+    title: "Metal Roofing Contractor Houston TX | Golden Rooster Construction",
     description:
-      "The Golden Rooster Sheet Metal Roofing — 25+ years of precision craftsmanship in metal roofing and fabrication.",
-    siteName: "The Golden Rooster Sheet Metal Roofing",
+      "Licensed metal roofing contractor in Houston, TX. Standing seam installation, roof repair, remodeling & wood framing. 25+ years of experience. Free estimates.",
+    siteName: "Golden Rooster Construction",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Sheet Metal – Professional Metal Roofing & Fabrication",
+        alt: "Golden Rooster Construction — Metal Roofing Contractor Houston TX",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sheet Metal | Professional Metal Roofing & Fabrication",
+    title: "Metal Roofing Contractor Houston TX | Golden Rooster Construction",
     description:
-      "Industry-leading sheet metal roofing and fabrication services.",
+      "Licensed metal roofing & wood framing contractor in Houston, TX. 25+ years experience. Free estimates.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -82,7 +95,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.sheetmetalservices.com",
+    canonical: "https://www.goldenroostersroofing.com",
   },
 };
 
@@ -91,16 +104,17 @@ export const metadata: Metadata = {
 ───────────────────────────────────── */
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://www.sheetmetalservices.com",
-  name: "The Golden Rooster Sheet Metal Roofing",
+  "@type": "RoofingContractor",
+  "@id": "https://www.goldenroostersroofing.com",
+  name: "Golden Rooster Construction",
+  alternateName: "The Golden Rooster Sheet Metal Roofing",
   description:
-    "Professional sheet metal roofing, fabrication, and construction services with over 25 years of experience.",
-  url: "https://www.sheetmetalservices.com",
-  logo: "https://www.sheetmetalservices.com/logo-icon.svg",
-  image: "https://www.sheetmetalservices.com/og-image.jpg",
+    "Licensed metal roofing contractor in Houston, TX. Expert in standing seam installation, metal roof repair & remodeling, and wood framing for commercial and residential projects. Over 25 years of experience.",
+  url: "https://www.goldenroostersroofing.com",
+  logo: "https://www.goldenroostersroofing.com/logo-icon.svg",
+  image: "https://www.goldenroostersroofing.com/og-image.jpg",
   telephone: "+1-800-543-3862",
-  email: "info@sheetmetalservices.com",
+  email: "info@goldenroostersroofing.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "1234 Industrial Blvd",
@@ -113,6 +127,68 @@ const jsonLd = {
     "@type": "GeoCoordinates",
     latitude: "29.7604",
     longitude: "-95.3698",
+  },
+  areaServed: [
+    {
+      "@type": "City",
+      name: "Houston",
+      sameAs: "https://en.wikipedia.org/wiki/Houston",
+    },
+    {
+      "@type": "AdministrativeArea",
+      name: "Texas",
+    },
+  ],
+  serviceArea: {
+    "@type": "GeoCircle",
+    geoMidpoint: {
+      "@type": "GeoCoordinates",
+      latitude: 29.7604,
+      longitude: -95.3698,
+    },
+    geoRadius: "80467",
+  },
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Roofing & Construction Services",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Metal Roofing Installation Houston TX",
+          description:
+            "Standing seam and exposed fastener metal roof installation for commercial and residential properties in Houston, TX.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Metal Roof Repair & Remodeling Houston",
+          description:
+            "Professional metal roof inspection, leak repair, panel replacement, full re-roofing, and remodeling services in Houston, TX.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Wood Framing Contractor Houston TX",
+          description:
+            "Structural wood framing for residential and commercial construction projects in Houston, TX.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Gutter Systems & Flashing Houston",
+          description:
+            "Custom gutter system installation, flashing, and trim work to protect your property in Houston, TX.",
+        },
+      },
+    ],
   },
   openingHoursSpecification: [
     {
@@ -130,9 +206,9 @@ const jsonLd = {
   ],
   priceRange: "$$",
   sameAs: [
-    "https://www.facebook.com/sheetmetalservices",
-    "https://www.linkedin.com/company/sheetmetalservices",
-    "https://www.instagram.com/sheetmetalservices",
+    "https://www.facebook.com/goldenroostersroofing",
+    "https://www.linkedin.com/company/goldenroostersroofing",
+    "https://www.instagram.com/goldenroostersroofing",
   ],
 };
 

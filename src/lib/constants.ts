@@ -10,8 +10,8 @@ export const SITE = {
     "Golden Rooster Construction — professional wood framing and metal roofing services for residential and commercial projects. Quality work, honest pricing, results you can count on.",
   phone: "(800) 543-3862",
   phoneHref: "tel:+18005433862",
-  email: "info@sheetmetalservices.com",
-  emailHref: "mailto:info@sheetmetalservices.com",
+  email: "info@goldenroostersroofing.com",
+  emailHref: "mailto:info@goldenroostersroofing.com",
   address: {
     street: "1234 Industrial Blvd",
     city: "Houston",
@@ -25,10 +25,10 @@ export const SITE = {
     sunday: "Sunday: Closed",
   },
   social: {
-    facebook: "https://facebook.com/sheetmetalservices",
-    instagram: "https://instagram.com/sheetmetalservices",
-    linkedin: "https://linkedin.com/company/sheetmetalservices",
-    youtube: "https://youtube.com/@sheetmetalservices",
+    facebook: "https://facebook.com/goldenroostersroofing",
+    instagram: "https://instagram.com/goldenroostersroofing",
+    linkedin: "https://linkedin.com/company/goldenroostersroofing",
+    youtube: "https://youtube.com/@goldenroostersroofing",
   },
   license: "License #TX-54892 | Fully Insured",
 };

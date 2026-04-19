@@ -10,13 +10,17 @@ import StatsSection from "@/components/home/StatsSection";
 import { SERVICES } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Our Services",
+  title: "Metal Roofing & Wood Framing Services Houston TX",
   description:
-    "Golden Rooster Construction offers professional wood framing and metal roofing repair & remodeling services for residential and commercial projects.",
+    "Expert metal roofing installation, repair & remodeling in Houston TX. Standing seam, exposed fastener, gutter systems, flashing, and structural wood framing. Commercial & residential. Free estimates — (800) 543-3862.",
+  alternates: {
+    canonical: "https://www.goldenroostersroofing.com/services",
+  },
   openGraph: {
-    title: "Our Services | Golden Rooster Construction",
+    title: "Metal Roofing & Wood Framing Services Houston TX | Golden Rooster",
     description:
-      "Wood framing and metal roofing — quality work, honest pricing, results you can count on.",
+      "Standing seam metal roofing, roof repair, remodeling, gutter systems, and wood framing for commercial & residential projects in Houston, TX.",
+    url: "https://www.goldenroostersroofing.com/services",
   },
 };
 
