@@ -1,0 +1,271 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "woodFraming": "Wood Framing",
+    "metalRoofing": "Metal Roofing — Repair & Remodeling",
+    "about": "About Us",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "badge": "Golden Rooster Construction",
+    "title1": "METAL ROOFING",
+    "titleAccent": "CONTRACTOR",
+    "titleLocation": "HOUSTON TX",
+    "tagline": "Built Strong. Roofed Right.",
+    "subtitle": "Professional wood framing & metal roofing installation, repair, and remodeling for residential and commercial projects across Texas.",
+    "ctaPrimary": "Get a Free Estimate",
+    "ctaSecondary": "Explore Services",
+    "badge1": "Licensed & Fully Insured",
+    "badge2": "Residential & Commercial",
+    "badge3": "On-Time, Within Budget",
+    "statProjects": "Projects Done",
+    "statSatisfaction": "Client Satisfaction",
+    "statYears": "Years of Experience",
+    "scroll": "Scroll"
+  },
+  "stats": {
+    "items": [
+      { "label": "Years in Business" },
+      { "label": "Projects Completed" },
+      { "label": "Client Satisfaction" },
+      { "label": "Expert Team Members" }
+    ]
+  },
+  "services": {
+    "sectionTag": "What We Do",
+    "sectionTitle": "Our",
+    "sectionHighlight": "Services",
+    "sectionSubtitle": "From structural wood framing to metal roofing repair and remodeling — Golden Rooster Construction delivers quality work for residential and commercial projects.",
+    "learnMore": "Learn More",
+    "viewAll": "View All Services",
+    "requestQuote": "Request a Quote",
+    "serviceTag": "Service",
+    "heroTitle": "Wood Framing & Metal Roofing Services",
+    "heroSubtitle": "Professional construction and roofing solutions for residential and commercial projects — quality work, honest pricing, results you can count on.",
+    "items": {
+      "wood-framing": {
+        "title": "Wood Framing",
+        "description1": "At Golden Rooster Construction, we specialize in professional wood framing for both residential and commercial projects. Whether you're building a new home, a multi-unit development, or a commercial facility, our skilled framing crews deliver precise, code-compliant structures built to last.",
+        "description2": "We work closely with contractors, developers, and homeowners from the earliest stages of construction — ensuring every wall, floor system, and roof structure is framed with accuracy, efficiency, and craftsmanship. From simple single-family homes to complex commercial builds, Golden Rooster has the experience and manpower to get your project framed right, on time, and within budget.",
+        "features": [
+          "Residential wood framing (new construction)",
+          "Commercial wood framing (offices, retail, warehouses, multi-family)",
+          "Structural framing & load-bearing wall systems",
+          "Floor & ceiling joist framing",
+          "Custom and complex architectural framing"
+        ]
+      },
+      "metal-roofing": {
+        "title": "Metal Roofing — Repair & Remodeling",
+        "description1": "A damaged or aging roof is more than an inconvenience — it's a risk to your entire property. Golden Rooster's metal roofing team provides expert repair and remodeling services for both residential and commercial buildings, restoring the integrity, performance, and appearance of your roof with quality materials and proven techniques.",
+        "description2": "Whether you're dealing with leaks, storm damage, worn panels, or simply looking to upgrade to a more durable and energy-efficient metal roofing system, Golden Rooster brings the skills and attention to detail your property deserves.",
+        "features": [
+          "Metal roof inspection & damage assessment",
+          "Leak repair and panel replacement",
+          "Full metal roof remodeling & retrofitting",
+          "Re-roofing over existing structures",
+          "Gutters, flashing & trim work",
+          "Residential & commercial metal roofing solutions"
+        ]
+      }
+    },
+    "process": {
+      "tag": "How We Work",
+      "title": "Our Proven",
+      "titleHighlight": "Process",
+      "subtitle": "A transparent, client-first approach designed to deliver exceptional results on every project — on time and within budget.",
+      "steps": [
+        { "title": "Free Consultation", "desc": "We assess your project needs and site conditions at no cost or obligation." },
+        { "title": "Detailed Proposal", "desc": "Receive a comprehensive written proposal with transparent, itemized pricing within 48 hours." },
+        { "title": "Material & Crew Scheduling", "desc": "We coordinate materials procurement and assign the right crew for your project scope." },
+        { "title": "Expert Construction", "desc": "Our skilled team executes every phase with precision, safety, and strict code compliance." },
+        { "title": "Quality Inspection", "desc": "A thorough review ensures every detail meets our high standards before we consider the job done." }
+      ]
+    }
+  },
+  "whyUs": {
+    "tag": "Why Choose Us",
+    "title": "Built on Trust,",
+    "titleHighlight": "Proven by Results",
+    "subtitle": "Whether we're framing the walls of your next project or restoring the roof over your head, Golden Rooster brings the same commitment: quality work, honest pricing, and results you can count on.",
+    "yearsLabel": "Years of\nExcellence",
+    "learnMore": "Learn More About Us",
+    "items": [
+      { "title": "The Golden Rooster Guarantee", "description": "When you see the Golden Rooster, you know the job will be done right. Our name is our commitment on every single project." },
+      { "title": "Quality Work, Always", "description": "We hold ourselves to the highest standards of craftsmanship — whether framing a wall or restoring a roof, we never cut corners." },
+      { "title": "Residential & Commercial", "description": "From single-family homes to large commercial facilities, we bring the same level of skill, dedication, and precision to every project type." },
+      { "title": "Honest, Transparent Pricing", "description": "No surprises, no hidden costs. We provide clear, detailed estimates so you always know exactly what you're paying for." },
+      { "title": "On Schedule, Within Budget", "description": "We understand that time is money in construction. Our crews are organized to deliver on time and within the agreed budget — every time." },
+      { "title": "Any Scale, Any State", "description": "We proudly serve residential and commercial clients across multiple states, with the hands-on dedication and capacity to handle projects of any scale." }
+    ]
+  },
+  "projects": {
+    "tag": "Our Work",
+    "title": "Recent",
+    "titleHighlight": "Projects",
+    "subtitle": "A selection of our finest commercial, industrial, and residential metal roofing installations.",
+    "startProject": "Start Your Project",
+    "viewDetails": "View Details",
+    "haveProject": "Have a project in mind?",
+    "letsTalk": "Let's talk",
+    "filters": {
+      "All": "All",
+      "Commercial": "Commercial",
+      "Residential": "Residential",
+      "Industrial": "Industrial"
+    },
+    "items": [
+      { "title": "Westfield Corporate Center", "description": "150,000 sq ft standing seam metal roof system with custom flashings and integrated solar-ready panels." },
+      { "title": "Riverside Industrial Park", "description": "R-panel metal roofing and full wall cladding system for 4-building industrial complex." },
+      { "title": "Oakwood Residence", "description": "Custom standing seam residential roof with integrated gutters and decorative metal trim package." },
+      { "title": "Metro Distribution Hub", "description": "High-performance insulated metal panel system engineered for extreme thermal performance." },
+      { "title": "Summit Tech Campus", "description": "Architectural metal façade and roofing system for a 3-building corporate tech campus." },
+      { "title": "Clearwater Manufacturing", "description": "Complete metal re-roofing of 80,000 sq ft manufacturing facility with ventilation systems." }
+    ]
+  },
+  "testimonials": {
+    "tag": "What Clients Say",
+    "title": "Trusted by",
+    "titleHighlight": "Industry Leaders",
+    "subtitle": "Don't take our word for it. Here's what some of our most valued clients have to say.",
+    "items": [
+      { "text": "Golden Rooster has been our trusted roofing partner for over a decade. Their precision work on our 12-building corporate campus was outstanding — on time, on budget, and flawless quality. We wouldn't use anyone else.", "title": "VP of Facilities", "company": "BuildCorp International" },
+      { "text": "They handled a complex re-roofing project on our 200-unit mixed-use development with zero disruption to tenants. The communication throughout was exceptional. I highly recommend Golden Rooster to any property owner.", "title": "Property Manager", "company": "Skyline Real Estate Group" },
+      { "text": "As an architect, I demand precision and design integrity. Golden Rooster consistently delivers both. Their custom fabrication capabilities allow us to execute designs that other contractors simply couldn't achieve.", "title": "Principal Architect", "company": "Chen + Partners Architecture" }
+    ]
+  },
+  "cta": {
+    "tag": "Start Today",
+    "title": "Ready to Build or Restore",
+    "titleAccent": "With Confidence?",
+    "subtitle": "Get your free, no-obligation estimate from our expert team. We'll assess your project and deliver a detailed proposal within 48 hours.",
+    "ctaPrimary": "Request Free Estimate",
+    "noCommitment": "No commitment required · Response within 48 hours · {license}"
+  },
+  "about": {
+    "heroTitle": "25 Years of Precision Craftsmanship",
+    "heroSubtitle": "We started with a pickup truck and a commitment to quality. Today, we're the region's most trusted metal roofing specialists.",
+    "story": {
+      "tag": "Our Story",
+      "title": "25 Years of",
+      "titleHighlight": "Precision & Pride",
+      "p1": "Golden Rooster Construction was founded in Houston, TX with an unwavering belief that quality and integrity should never be compromised. Starting with just a pickup truck and a passion for precision, we built the company panel by panel, project by project.",
+      "p2": "Today, we're proud to be one of the most trusted names in metal roofing and wood framing across Texas. Our team of 50+ certified craftsmen brings the same dedication to every single job — whether it's a custom residential installation or a 200,000 sq ft commercial complex.",
+      "p3": "What sets us apart isn't just our technical expertise — it's the culture of accountability and pride we've cultivated over 25 years. When you work with Golden Rooster, you're not hiring a contractor. You're gaining a long-term partner invested in the success of your project.",
+      "milestones": [
+        { "year": "1998", "event": "Founded in Houston, TX with a 3-person team and a commitment to quality." },
+        { "year": "2005", "event": "Expanded into commercial roofing, landing our first 50,000 sq ft project." },
+        { "year": "2012", "event": "Opened a state-of-the-art fabrication facility serving the Gulf Coast region." },
+        { "year": "2020", "event": "Reached 2,000+ completed projects and 50+ full-time skilled craftsmen." },
+        { "year": "Today", "event": "Industry leaders in precision metal roofing across Texas and beyond." }
+      ]
+    },
+    "missionVision": {
+      "tag": "Purpose & Direction",
+      "title": "Mission &",
+      "titleHighlight": "Vision",
+      "subtitle": "The foundation that guides every project we take on and every decision we make as a company.",
+      "missionLabel": "Our Mission",
+      "visionLabel": "Our Vision",
+      "mission": "To deliver exceptional wood framing and metal roofing solutions with precision, reliability, and craftsmanship — building structures that stand the test of time while exceeding our clients' expectations on every project, on schedule, and within budget.",
+      "vision": "To become the most trusted and sought-after framing and metal roofing contractor in our region — recognized for our unwavering commitment to quality, our skilled team, and our ability to transform every client's vision into a durable, lasting reality."
+    },
+    "values": {
+      "tag": "What Drives Us",
+      "title": "Our Core",
+      "titleHighlight": "Values",
+      "subtitle": "The principles that guide every decision, every project, and every relationship we build.",
+      "items": [
+        { "title": "Quality Without Compromise", "description": "We hold ourselves to the highest standards of craftsmanship in every wood frame we build and every metal roof we install. Quality is not the exception — it is the foundation of everything we do." },
+        { "title": "Integrity & Honesty", "description": "We operate with full transparency in our estimates, timelines, and communication. Our clients can always count on us to be straightforward, accountable, and dependable — from the first conversation to the final nail." },
+        { "title": "Safety First", "description": "The well-being of our team and the people who will live and work in the structures we build is our top priority. We follow strict safety protocols on every job site, without exception." },
+        { "title": "Client Partnership", "description": "We don't just complete projects — we build relationships. We listen, collaborate, and work alongside our clients to ensure their goals are met and their investment is protected." },
+        { "title": "Excellence in Execution", "description": "We take pride in getting the job done right the first time. Through skilled labor, careful planning, and attention to detail, we deliver results that speak for themselves." },
+        { "title": "Growth & Innovation", "description": "As a growing company, we are committed to continuous improvement — embracing new techniques, materials, and industry best practices to better serve our clients and strengthen our team." }
+      ]
+    },
+    "team": {
+      "tag": "The People Behind the Project",
+      "title": "Meet Our",
+      "titleHighlight": "Expert Team",
+      "subtitle": "Experienced professionals passionate about precision, quality, and delivering exceptional results for every client.",
+      "members": [
+        { "title": "Owner & Founder", "bio": "25+ years of industry leadership, pioneering precision metal roofing systems across the Southwest." },
+        { "title": "General Manager", "bio": "Master of project logistics, ensuring every job is delivered on time with zero compromises." },
+        { "title": "Lead Fabricator", "bio": "25 years of hands-on metal craftsmanship; the precision behind every custom panel we produce." },
+        { "title": "Senior Project Manager", "bio": "PMP-certified with expertise in complex commercial and institutional metal roofing projects." }
+      ]
+    }
+  },
+  "contact": {
+    "heroTitle": "Get in Touch",
+    "heroSubtitle": "Have a project in mind? Our team is ready to provide a free, detailed estimate and answer any questions you have.",
+    "mapPlaceholder": "Replace with your Google Maps embed",
+    "form": {
+      "title": "Request a Free Estimate",
+      "required": "All fields marked * are required.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Smith",
+      "emailLabel": "Email",
+      "emailPlaceholder": "john@company.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "(555) 000-0000",
+      "serviceLabel": "Service Needed",
+      "servicePlaceholder": "Select a service…",
+      "projectTypeLabel": "Project Type",
+      "messageLabel": "Project Details",
+      "messagePlaceholder": "Describe your project: size, location, timeline, any specific requirements…",
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "errorMessage": "Something went wrong. Please try again or call us directly.",
+      "privacy": "By submitting, you agree to our Privacy Policy. We never share your data.",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for reaching out. Our team will review your request and respond within 48 business hours.",
+      "sendAnother": "Send another message",
+      "services": [
+        "Metal Roofing Systems",
+        "Sheet Metal Fabrication",
+        "Gutter & Drainage",
+        "Skylights & Ventilation",
+        "Repairs & Maintenance",
+        "Commercial Project",
+        "Other"
+      ],
+      "projectTypes": ["Commercial", "Residential", "Industrial", "Institutional"]
+    },
+    "info": {
+      "callTitle": "Call Us",
+      "callSub": "Mon–Fri: 7AM–6PM · Sat: 8AM–1PM",
+      "emailTitle": "Email Us",
+      "emailSub": "We reply within 48 business hours",
+      "visitTitle": "Visit Us",
+      "visitSub": "By appointment preferred",
+      "hoursTitle": "Office Hours",
+      "fullyBonded": "Fully bonded · OSHA compliant",
+      "emergency": "Emergency Service Available",
+      "emergencyDesc": "Roof leak or storm damage? We offer emergency response 24/7.",
+      "callEmergency": "Call Emergency Line",
+      "quickLinks": "Quick Links",
+      "viewServices": "View Our Services",
+      "learnTeam": "Learn About Our Team"
+    }
+  },
+  "footer": {
+    "description": "Golden Rooster Construction — professional wood framing and metal roofing services for residential and commercial projects. Quality work, honest pricing, results you can count on.",
+    "company": "Company",
+    "services": "Services",
+    "followUs": "Follow Us",
+    "copyright": "© {year} Golden Rooster Construction. All rights reserved.",
+    "licenseLabel": "Licensed & Fully Insured",
+    "links": {
+      "about": "About Us",
+      "team": "Our Team",
+      "values": "Our Values",
+      "careers": "Careers",
+      "woodFraming": "Wood Framing",
+      "metalRoofing": "Metal Roofing"
+    }
+  }
+}

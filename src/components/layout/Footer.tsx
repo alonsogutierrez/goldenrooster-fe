@@ -1,30 +1,17 @@
-import Link from "next/link";
 import Image from "next/image";
-import {
-  Phone,
-  Mail,
-  MapPin,
-  Clock,
-  Facebook,
-  Instagram,
-  Linkedin,
-  Youtube,
-  ArrowRight,
-  Shield,
-} from "lucide-react";
+import { Facebook, Instagram, Linkedin, Youtube, Phone, Mail, MapPin } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { SITE, FOOTER_LINKS } from "@/lib/constants";
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const t = useTranslations("footer");
+  const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary-dark text-white" aria-label="Site footer">
-      {/* ── Top accent line ── */}
-      <div className="h-1 bg-gradient-to-r from-transparent via-accent to-transparent" />
-
-      {/* ── Main footer body ── */}
-      <div className="container-xl py-16 lg:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
+    <footer className="bg-primary-dark text-white">
+      <div className="container-xl py-14 lg:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
           {/* ── Brand column ── */}
           <div className="lg:col-span-1 space-y-5">
@@ -40,51 +27,29 @@ export default function Footer() {
             </Link>
 
             <p className="text-white/60 text-sm leading-relaxed max-w-xs">
-              {SITE.description}
+              {t("description")}
             </p>
 
             {/* License badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/5 border border-white/10 rounded-sm text-xs text-white/50">
-              <Shield size={11} className="text-accent" />
-              {SITE.license}
-            </div>
-
-            {/* Social icons */}
-            <div className="flex items-center gap-3 pt-1">
-              {[
-                { href: SITE.social.facebook,  Icon: Facebook,  label: "Facebook" },
-                { href: SITE.social.instagram, Icon: Instagram, label: "Instagram" },
-                { href: SITE.social.linkedin,  Icon: Linkedin,  label: "LinkedIn" },
-                { href: SITE.social.youtube,   Icon: Youtube,   label: "YouTube" },
-              ].map(({ href, Icon, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="w-9 h-9 flex items-center justify-center rounded-sm bg-white/8 border border-white/10 text-white/50 hover:text-accent hover:border-accent/50 hover:bg-accent/10 transition-all duration-300"
-                >
-                  <Icon size={15} />
-                </a>
-              ))}
+              <span className="w-1.5 h-1.5 rounded-full bg-accent" />
+              {t("licenseLabel")}
             </div>
           </div>
 
           {/* ── Company links ── */}
-          <div className="space-y-4">
-            <h3 className="text-white font-heading font-bold text-sm tracking-[0.15em] uppercase border-b border-white/10 pb-3">
-              Company
+          <div>
+            <h3 className="font-heading font-bold text-sm uppercase tracking-widest text-white/40 mb-5">
+              {t("company")}
             </h3>
-            <ul className="space-y-2.5">
-              {FOOTER_LINKS.company.map((link) => (
-                <li key={link.href}>
+            <ul className="space-y-3">
+              {FOOTER_LINKS.company.map((l) => (
+                <li key={l.href}>
                   <Link
-                    href={link.href}
-                    className="group flex items-center gap-2 text-white/55 hover:text-accent text-sm transition-all duration-200"
+                    href={l.href}
+                    className="text-white/60 hover:text-accent text-sm transition-colors duration-200"
                   >
-                    <ArrowRight size={11} className="opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all duration-200 text-accent" />
-                    {link.label}
+                    {t(`links.${l.key}` as any)}
                   </Link>
                 </li>
               ))}
@@ -92,91 +57,76 @@ export default function Footer() {
           </div>
 
           {/* ── Services links ── */}
-          <div className="space-y-4">
-            <h3 className="text-white font-heading font-bold text-sm tracking-[0.15em] uppercase border-b border-white/10 pb-3">
-              Services
+          <div>
+            <h3 className="font-heading font-bold text-sm uppercase tracking-widest text-white/40 mb-5">
+              {t("services")}
             </h3>
-            <ul className="space-y-2.5">
-              {FOOTER_LINKS.services.map((link) => (
-                <li key={link.href}>
+            <ul className="space-y-3">
+              {FOOTER_LINKS.services.map((l) => (
+                <li key={l.href}>
                   <Link
-                    href={link.href}
-                    className="group flex items-center gap-2 text-white/55 hover:text-accent text-sm transition-all duration-200"
+                    href={l.href}
+                    className="text-white/60 hover:text-accent text-sm transition-colors duration-200"
                   >
-                    <ArrowRight size={11} className="opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all duration-200 text-accent" />
-                    {link.label}
+                    {t(`links.${l.key}` as any)}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* ── Contact info ── */}
-          <div className="space-y-4">
-            <h3 className="text-white font-heading font-bold text-sm tracking-[0.15em] uppercase border-b border-white/10 pb-3">
-              Contact
-            </h3>
-            <ul className="space-y-4">
-              <li>
-                <a
-                  href={SITE.phoneHref}
-                  className="flex items-start gap-3 text-white/60 hover:text-accent text-sm transition-colors duration-200 group"
-                >
-                  <span className="w-7 h-7 flex-shrink-0 flex items-center justify-center rounded-sm bg-accent/15 text-accent group-hover:bg-accent group-hover:text-white transition-all duration-300">
-                    <Phone size={13} />
-                  </span>
-                  <span className="leading-snug pt-0.5">{SITE.phone}</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href={SITE.emailHref}
-                  className="flex items-start gap-3 text-white/60 hover:text-accent text-sm transition-colors duration-200 group"
-                >
-                  <span className="w-7 h-7 flex-shrink-0 flex items-center justify-center rounded-sm bg-accent/15 text-accent group-hover:bg-accent group-hover:text-white transition-all duration-300">
-                    <Mail size={13} />
-                  </span>
-                  <span className="leading-snug pt-0.5 break-all">{SITE.email}</span>
-                </a>
-              </li>
-              <li className="flex items-start gap-3 text-white/60 text-sm">
-                <span className="w-7 h-7 flex-shrink-0 flex items-center justify-center rounded-sm bg-accent/15 text-accent">
-                  <MapPin size={13} />
-                </span>
-                <span className="leading-relaxed pt-0.5">{SITE.address.full}</span>
-              </li>
-              <li className="flex items-start gap-3 text-white/60 text-sm">
-                <span className="w-7 h-7 flex-shrink-0 flex items-center justify-center rounded-sm bg-accent/15 text-accent">
-                  <Clock size={13} />
-                </span>
-                <span className="leading-relaxed pt-0.5 space-y-0.5">
-                  <span className="block">{SITE.hours.weekdays}</span>
-                  <span className="block">{SITE.hours.saturday}</span>
-                  <span className="block text-white/35">{SITE.hours.sunday}</span>
-                </span>
-              </li>
-            </ul>
+          {/* ── Contact + Social ── */}
+          <div className="space-y-5">
+            <div className="space-y-3">
+              <a href={SITE.phoneHref} className="flex items-center gap-2.5 text-white/60 hover:text-accent text-sm transition-colors duration-200 group">
+                <Phone size={14} className="text-accent/60 group-hover:text-accent flex-shrink-0" />
+                {SITE.phone}
+              </a>
+              <a href={SITE.emailHref} className="flex items-center gap-2.5 text-white/60 hover:text-accent text-sm transition-colors duration-200 group">
+                <Mail size={14} className="text-accent/60 group-hover:text-accent flex-shrink-0" />
+                {SITE.email}
+              </a>
+              <div className="flex items-start gap-2.5 text-white/60 text-sm">
+                <MapPin size={14} className="text-accent/60 flex-shrink-0 mt-0.5" />
+                {SITE.address.full}
+              </div>
+            </div>
+
+            <div>
+              <p className="text-white/40 text-xs font-bold uppercase tracking-widest mb-3">
+                {t("followUs")}
+              </p>
+              <div className="flex gap-3">
+                {[
+                  { Icon: Facebook, href: SITE.social.facebook, label: "Facebook" },
+                  { Icon: Instagram, href: SITE.social.instagram, label: "Instagram" },
+                  { Icon: Linkedin, href: SITE.social.linkedin, label: "LinkedIn" },
+                  { Icon: Youtube, href: SITE.social.youtube, label: "YouTube" },
+                ].map(({ Icon, href, label }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={label}
+                    className="w-8 h-8 flex items-center justify-center rounded-sm bg-white/8 text-white/50 hover:bg-accent hover:text-white transition-all duration-200"
+                  >
+                    <Icon size={14} />
+                  </a>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       {/* ── Bottom bar ── */}
-      <div className="border-t border-white/10">
+      <div className="border-t border-white/8">
         <div className="container-xl py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-white/35 text-xs text-center sm:text-left">
-            © {currentYear} {SITE.fullName}. All rights reserved.
+          <p className="text-white/35 text-xs">
+            {t("copyright", { year })}
           </p>
-          <div className="flex items-center gap-5">
-            {["Privacy Policy", "Terms of Service", "Sitemap"].map((item) => (
-              <Link
-                key={item}
-                href="#"
-                className="text-white/30 hover:text-white/60 text-xs transition-colors duration-200"
-              >
-                {item}
-              </Link>
-            ))}
-          </div>
+          <p className="text-white/25 text-xs">{SITE.license}</p>
         </div>
       </div>
     </footer>

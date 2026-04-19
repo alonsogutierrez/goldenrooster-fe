@@ -1,19 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { Medal, Scale, Gem, ShieldCheck, HeartHandshake, TrendingUp } from "lucide-react";
 import SectionHeader from "@/components/ui/SectionHeader";
 import ScrollReveal from "@/components/ui/ScrollReveal";
-import { VALUES } from "@/lib/constants";
+import { VALUES_ICONS } from "@/lib/constants";
 
-const iconMap: Record<string, React.ElementType> = {
-  Medal,
-  Scale,
-  Gem,
-  ShieldCheck,
-  HeartHandshake,
-  TrendingUp,
-};
+const iconMap: Record<string, React.ElementType> = { Medal, Scale, Gem, ShieldCheck, HeartHandshake, TrendingUp };
 
 const cardGradients = [
   "from-primary-dark to-primary",
@@ -25,38 +19,36 @@ const cardGradients = [
 ];
 
 export default function ValuesSection() {
+  const t = useTranslations("about.values");
+  const items = t.raw("items") as { title: string; description: string }[];
+
   return (
-    <section
-      id="values"
-      className="section-padding bg-gray-50 relative overflow-hidden"
-      aria-label="Our Values"
-    >
+    <section id="values" className="section-padding bg-gray-50 relative overflow-hidden" aria-label="Our Values">
       <div className="container-xl">
         <div className="mb-14">
           <SectionHeader
-            tag="What Drives Us"
-            title="Our Core"
-            titleHighlight="Values"
-            subtitle="The principles that guide every decision, every project, and every relationship we build."
+            tag={t("tag")}
+            title={t("title")}
+            titleHighlight={t("titleHighlight")}
+            subtitle={t("subtitle")}
             align="center"
           />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {VALUES.map((val, i) => {
-            const Icon = iconMap[val.icon] ?? Medal;
+          {VALUES_ICONS.map((iconKey, i) => {
+            const Icon = iconMap[iconKey] ?? Medal;
+            const item = items[i];
+            if (!item) return null;
             return (
-              <ScrollReveal key={val.title} delay={i * 0.12} direction="up">
+              <ScrollReveal key={i} delay={i * 0.12} direction="up">
                 <motion.div
                   className="relative overflow-hidden rounded-sm group cursor-default"
                   whileHover={{ y: -4 }}
                   transition={{ type: "spring", stiffness: 280, damping: 22 }}
                 >
-                  {/* Top gradient bar */}
                   <div className={`h-1.5 w-full bg-gradient-to-r ${cardGradients[i]}`} />
-
                   <div className="bg-white border border-gray-100 rounded-b-sm p-8 space-y-5 shadow-card group-hover:shadow-card-hover transition-shadow duration-300">
-                    {/* Icon */}
                     <motion.div
                       className="w-14 h-14 rounded-sm flex items-center justify-center bg-primary/6 text-primary group-hover:bg-accent group-hover:text-white transition-all duration-400"
                       animate={{ y: [0, -5, 0] }}
@@ -64,21 +56,14 @@ export default function ValuesSection() {
                     >
                       <Icon size={24} strokeWidth={1.6} />
                     </motion.div>
-
-                    {/* Number label */}
                     <span className="text-[10px] font-bold text-gray-300 tracking-[0.3em] uppercase">
                       0{i + 1}
                     </span>
-
                     <h3 className="font-heading font-black text-2xl text-primary group-hover:text-accent transition-colors duration-300">
-                      {val.title}
+                      {item.title}
                     </h3>
-
                     <div className="w-10 h-[2px] bg-accent rounded-full" />
-
-                    <p className="text-gray-500 text-sm leading-relaxed">
-                      {val.description}
-                    </p>
+                    <p className="text-gray-500 text-sm leading-relaxed">{item.description}</p>
                   </div>
                 </motion.div>
               </ScrollReveal>

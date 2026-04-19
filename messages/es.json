@@ -1,0 +1,271 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "woodFraming": "Estructura de Madera",
+    "metalRoofing": "Techos de Metal — Reparación y Remodelación",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "getQuote": "Cotización"
+  },
+  "hero": {
+    "badge": "Golden Rooster Construction",
+    "title1": "TECHADO",
+    "titleAccent": "DE METAL",
+    "titleLocation": "HOUSTON TX",
+    "tagline": "Construido Sólido. Techado Correcto.",
+    "subtitle": "Instalación, reparación y remodelación profesional de techos de metal y estructuras de madera para proyectos residenciales y comerciales en Texas.",
+    "ctaPrimary": "Obtener Estimado Gratis",
+    "ctaSecondary": "Ver Servicios",
+    "badge1": "Licenciados y Completamente Asegurados",
+    "badge2": "Residencial y Comercial",
+    "badge3": "A Tiempo, Dentro del Presupuesto",
+    "statProjects": "Proyectos Completados",
+    "statSatisfaction": "Satisfacción del Cliente",
+    "statYears": "Años de Experiencia",
+    "scroll": "Desplazar"
+  },
+  "stats": {
+    "items": [
+      { "label": "Años en el Negocio" },
+      { "label": "Proyectos Completados" },
+      { "label": "Satisfacción del Cliente" },
+      { "label": "Miembros del Equipo" }
+    ]
+  },
+  "services": {
+    "sectionTag": "Lo Que Hacemos",
+    "sectionTitle": "Nuestros",
+    "sectionHighlight": "Servicios",
+    "sectionSubtitle": "Desde estructura de madera hasta reparación y remodelación de techos de metal — Golden Rooster Construction entrega trabajo de calidad para proyectos residenciales y comerciales.",
+    "learnMore": "Saber Más",
+    "viewAll": "Ver Todos los Servicios",
+    "requestQuote": "Solicitar Cotización",
+    "serviceTag": "Servicio",
+    "heroTitle": "Estructura de Madera y Techos de Metal",
+    "heroSubtitle": "Soluciones de construcción y techado profesional para proyectos residenciales y comerciales — trabajo de calidad, precios honestos, resultados garantizados.",
+    "items": {
+      "wood-framing": {
+        "title": "Estructura de Madera",
+        "description1": "En Golden Rooster Construction, nos especializamos en estructura de madera profesional para proyectos residenciales y comerciales. Ya sea que esté construyendo una nueva casa, un desarrollo multifamiliar o una instalación comercial, nuestros equipos de enmarcado entregan estructuras precisas y conformes a los códigos de construcción.",
+        "description2": "Trabajamos de cerca con contratistas, desarrolladores y propietarios desde las primeras etapas de la construcción — asegurando que cada pared, sistema de piso y estructura de techo sea enmarcada con precisión, eficiencia y artesanía. Desde casas unifamiliares simples hasta construcciones comerciales complejas, Golden Rooster tiene la experiencia para ejecutar su proyecto correctamente, a tiempo y dentro del presupuesto.",
+        "features": [
+          "Estructura de madera residencial (nueva construcción)",
+          "Estructura de madera comercial (oficinas, comercio, bodegas, multifamiliar)",
+          "Estructura y sistemas de muros de carga",
+          "Estructura de vigas de piso y techo",
+          "Estructura arquitectónica personalizada y compleja"
+        ]
+      },
+      "metal-roofing": {
+        "title": "Techos de Metal — Reparación y Remodelación",
+        "description1": "Un techo dañado o envejecido es más que una inconveniencia — es un riesgo para toda su propiedad. El equipo de techos de metal de Golden Rooster provee servicios expertos de reparación y remodelación para edificios residenciales y comerciales, restaurando la integridad, el rendimiento y la apariencia de su techo.",
+        "description2": "Ya sea que tenga goteras, daños por tormenta, paneles desgastados, o simplemente quiera actualizar a un sistema de techos de metal más duradero y eficiente energéticamente, Golden Rooster aporta las habilidades y la atención al detalle que su propiedad merece.",
+        "features": [
+          "Inspección y evaluación de daños en techos de metal",
+          "Reparación de goteras y reemplazo de paneles",
+          "Remodelación y modernización completa de techos de metal",
+          "Re-techado sobre estructuras existentes",
+          "Canalones, flashings y trabajos de remate",
+          "Soluciones de techos de metal residenciales y comerciales"
+        ]
+      }
+    },
+    "process": {
+      "tag": "Cómo Trabajamos",
+      "title": "Nuestro",
+      "titleHighlight": "Proceso Comprobado",
+      "subtitle": "Un enfoque transparente y centrado en el cliente diseñado para entregar resultados excepcionales en cada proyecto — a tiempo y dentro del presupuesto.",
+      "steps": [
+        { "title": "Consulta Gratuita", "desc": "Evaluamos las necesidades de su proyecto y las condiciones del sitio sin costo ni obligación." },
+        { "title": "Propuesta Detallada", "desc": "Reciba una propuesta escrita completa con precios transparentes y detallados en 48 horas." },
+        { "title": "Programación de Materiales y Equipo", "desc": "Coordinamos la adquisición de materiales y asignamos el equipo adecuado para su proyecto." },
+        { "title": "Construcción Experta", "desc": "Nuestro equipo capacitado ejecuta cada fase con precisión, seguridad y estricto cumplimiento de códigos." },
+        { "title": "Inspección de Calidad", "desc": "Una revisión exhaustiva asegura que cada detalle cumpla nuestros altos estándares antes de considerar el trabajo terminado." }
+      ]
+    }
+  },
+  "whyUs": {
+    "tag": "¿Por Qué Elegirnos?",
+    "title": "Construido en Confianza,",
+    "titleHighlight": "Probado por Resultados",
+    "subtitle": "Ya sea que estemos enmarcando las paredes de su próximo proyecto o restaurando el techo sobre su cabeza, Golden Rooster aporta el mismo compromiso: trabajo de calidad, precios honestos y resultados garantizados.",
+    "yearsLabel": "Años de\nExcelencia",
+    "learnMore": "Conocer Más Sobre Nosotros",
+    "items": [
+      { "title": "La Garantía Golden Rooster", "description": "Cuando ve el Golden Rooster, sabe que el trabajo se hará bien. Nuestro nombre es nuestro compromiso en cada proyecto." },
+      { "title": "Calidad, Siempre", "description": "Nos mantenemos en los más altos estándares de artesanía — ya sea enmarcando una pared o restaurando un techo, nunca cortamos esquinas." },
+      { "title": "Residencial y Comercial", "description": "Desde casas unifamiliares hasta grandes instalaciones comerciales, aportamos el mismo nivel de habilidad, dedicación y precisión a cada tipo de proyecto." },
+      { "title": "Precios Honestos y Transparentes", "description": "Sin sorpresas, sin costos ocultos. Proporcionamos estimados claros y detallados para que siempre sepa exactamente lo que está pagando." },
+      { "title": "A Tiempo, Dentro del Presupuesto", "description": "Entendemos que el tiempo es dinero en la construcción. Nuestros equipos están organizados para entregar a tiempo y dentro del presupuesto acordado — siempre." },
+      { "title": "Cualquier Escala, Cualquier Estado", "description": "Servimos con orgullo a clientes residenciales y comerciales en múltiples estados, con la dedicación y capacidad para manejar proyectos de cualquier escala." }
+    ]
+  },
+  "projects": {
+    "tag": "Nuestro Trabajo",
+    "title": "Proyectos",
+    "titleHighlight": "Recientes",
+    "subtitle": "Una selección de nuestras mejores instalaciones de techos de metal comerciales, industriales y residenciales.",
+    "startProject": "Iniciar Su Proyecto",
+    "viewDetails": "Ver Detalles",
+    "haveProject": "¿Tiene un proyecto en mente?",
+    "letsTalk": "Hablemos",
+    "filters": {
+      "All": "Todos",
+      "Commercial": "Comercial",
+      "Residential": "Residencial",
+      "Industrial": "Industrial"
+    },
+    "items": [
+      { "title": "Centro Corporativo Westfield", "description": "Sistema de techo de costura alzada de 150,000 pies cuadrados con flashings personalizados y paneles listos para energía solar." },
+      { "title": "Parque Industrial Riverside", "description": "Techos de metal tipo R-panel y sistema de revestimiento de paredes para complejo industrial de 4 edificios." },
+      { "title": "Residencia Oakwood", "description": "Techo residencial de costura alzada personalizado con canalones integrados y paquete de remate decorativo." },
+      { "title": "Centro de Distribución Metro", "description": "Sistema de panel de metal aislado de alto rendimiento diseñado para rendimiento térmico extremo." },
+      { "title": "Campus Tecnológico Summit", "description": "Sistema de fachada y techo de metal arquitectónico para campus corporativo tecnológico de 3 edificios." },
+      { "title": "Manufactura Clearwater", "description": "Re-techado completo de metal de instalación manufacturera de 80,000 pies cuadrados con sistemas de ventilación." }
+    ]
+  },
+  "testimonials": {
+    "tag": "Lo Que Dicen Nuestros Clientes",
+    "title": "Confianza de",
+    "titleHighlight": "Líderes de la Industria",
+    "subtitle": "No tome nuestra palabra. Esto es lo que algunos de nuestros clientes más valiosos tienen que decir.",
+    "items": [
+      { "text": "Golden Rooster ha sido nuestro socio de techado de confianza por más de una década. Su trabajo de precisión en nuestro campus corporativo de 12 edificios fue sobresaliente — a tiempo, dentro del presupuesto y calidad impecable. No usaríamos a nadie más.", "title": "VP de Instalaciones", "company": "BuildCorp International" },
+      { "text": "Manejaron un complejo proyecto de re-techado en nuestro desarrollo de uso mixto de 200 unidades sin ninguna interrupción para los inquilinos. La comunicación fue excepcional. Recomiendo ampliamente Golden Rooster a cualquier propietario.", "title": "Administradora de Propiedades", "company": "Skyline Real Estate Group" },
+      { "text": "Como arquitecto, exijo precisión e integridad de diseño. Golden Rooster entrega ambas consistentemente. Sus capacidades de fabricación personalizada nos permiten ejecutar diseños que otros contratistas simplemente no podrían lograr.", "title": "Arquitecto Principal", "company": "Chen + Partners Architecture" }
+    ]
+  },
+  "cta": {
+    "tag": "Comience Hoy",
+    "title": "¿Listo para Construir o Restaurar",
+    "titleAccent": "con Confianza?",
+    "subtitle": "Obtenga su estimado gratuito y sin compromiso de nuestro equipo experto. Evaluaremos su proyecto y entregaremos una propuesta detallada en 48 horas.",
+    "ctaPrimary": "Solicitar Estimado Gratis",
+    "noCommitment": "Sin compromiso · Respuesta en 48 horas · {license}"
+  },
+  "about": {
+    "heroTitle": "25 Años de Artesanía de Precisión",
+    "heroSubtitle": "Comenzamos con una camioneta y un compromiso de calidad. Hoy somos los especialistas de techado más confiables de la región.",
+    "story": {
+      "tag": "Nuestra Historia",
+      "title": "25 Años de",
+      "titleHighlight": "Precisión y Orgullo",
+      "p1": "Golden Rooster Construction fue fundado en Houston, TX con la firme creencia de que la calidad y la integridad nunca deben comprometerse. Comenzando con solo una camioneta y una pasión por la precisión, construimos la empresa panel por panel, proyecto por proyecto.",
+      "p2": "Hoy somos uno de los nombres más confiables en techos de metal y estructura de madera en Texas. Nuestro equipo de más de 50 artesanos certificados aporta la misma dedicación a cada trabajo — ya sea una instalación residencial personalizada o un complejo comercial de 200,000 pies cuadrados.",
+      "p3": "Lo que nos distingue no es solo nuestra experiencia técnica — es la cultura de responsabilidad y orgullo que hemos cultivado durante 25 años. Cuando trabaja con Golden Rooster, no está contratando a un contratista. Está ganando un socio a largo plazo comprometido con el éxito de su proyecto.",
+      "milestones": [
+        { "year": "1998", "event": "Fundados en Houston, TX con un equipo de 3 personas y un compromiso de calidad." },
+        { "year": "2005", "event": "Expansión al techado comercial, obteniendo nuestro primer proyecto de 50,000 pies cuadrados." },
+        { "year": "2012", "event": "Apertura de una instalación de fabricación de última generación para la región del Golfo." },
+        { "year": "2020", "event": "Alcanzamos 2,000+ proyectos completados y 50+ artesanos calificados de tiempo completo." },
+        { "year": "Hoy", "event": "Líderes de la industria en techos de metal de precisión en Texas y más allá." }
+      ]
+    },
+    "missionVision": {
+      "tag": "Propósito y Dirección",
+      "title": "Misión y",
+      "titleHighlight": "Visión",
+      "subtitle": "Los pilares que guían cada proyecto que tomamos y cada decisión que tomamos como empresa.",
+      "missionLabel": "Nuestra Misión",
+      "visionLabel": "Nuestra Visión",
+      "mission": "Entregar soluciones excepcionales de estructura de madera y techado de metal con precisión, confiabilidad y artesanía — construyendo estructuras que resisten el paso del tiempo mientras superamos las expectativas de nuestros clientes en cada proyecto, a tiempo y dentro del presupuesto.",
+      "vision": "Convertirnos en el contratista de estructura y techado de metal más confiable y buscado en nuestra región — reconocidos por nuestro inquebrantable compromiso con la calidad, nuestro equipo capacitado y nuestra capacidad de transformar la visión de cada cliente en una realidad duradera."
+    },
+    "values": {
+      "tag": "Lo Que Nos Impulsa",
+      "title": "Nuestros Valores",
+      "titleHighlight": "Fundamentales",
+      "subtitle": "Los principios que guían cada decisión, cada proyecto y cada relación que construimos.",
+      "items": [
+        { "title": "Calidad Sin Compromisos", "description": "Nos mantenemos en los más altos estándares de artesanía en cada estructura de madera que construimos y cada techo de metal que instalamos. La calidad no es la excepción — es la base de todo lo que hacemos." },
+        { "title": "Integridad y Honestidad", "description": "Operamos con total transparencia en nuestros estimados, plazos y comunicación. Nuestros clientes siempre pueden contar con que seremos directos, responsables y confiables — desde la primera conversación hasta el último clavo." },
+        { "title": "Seguridad Primero", "description": "El bienestar de nuestro equipo y de las personas que vivirán y trabajarán en las estructuras que construimos es nuestra máxima prioridad. Seguimos estrictos protocolos de seguridad en cada obra, sin excepción." },
+        { "title": "Asociación con el Cliente", "description": "No solo completamos proyectos — construimos relaciones. Escuchamos, colaboramos y trabajamos junto a nuestros clientes para asegurar que sus objetivos se cumplan y su inversión esté protegida." },
+        { "title": "Excelencia en Ejecución", "description": "Nos enorgullece hacer el trabajo bien desde la primera vez. A través de mano de obra calificada, planificación cuidadosa y atención al detalle, entregamos resultados que hablan por sí mismos." },
+        { "title": "Crecimiento e Innovación", "description": "Como empresa en crecimiento, estamos comprometidos con la mejora continua — adoptando nuevas técnicas, materiales y mejores prácticas de la industria para servir mejor a nuestros clientes y fortalecer nuestro equipo." }
+      ]
+    },
+    "team": {
+      "tag": "Las Personas Detrás del Proyecto",
+      "title": "Conozca Nuestro",
+      "titleHighlight": "Equipo Experto",
+      "subtitle": "Profesionales experimentados apasionados por la precisión, la calidad y la entrega de resultados excepcionales para cada cliente.",
+      "members": [
+        { "title": "Propietario y Fundador", "bio": "Más de 25 años de liderazgo en la industria, pionero en sistemas de techado de metal de precisión en el suroeste." },
+        { "title": "Gerente General", "bio": "Maestro de la logística de proyectos, asegurando que cada trabajo sea entregado a tiempo sin compromisos." },
+        { "title": "Fabricador Principal", "bio": "25 años de artesanía metálica práctica; la precisión detrás de cada panel personalizado que producimos." },
+        { "title": "Gerente Senior de Proyectos", "bio": "Certificado PMP con experiencia en proyectos complejos de techado de metal comerciales e institucionales." }
+      ]
+    }
+  },
+  "contact": {
+    "heroTitle": "Contáctenos",
+    "heroSubtitle": "¿Tiene un proyecto en mente? Nuestro equipo está listo para proporcionar un estimado gratuito y detallado y responder cualquier pregunta que tenga.",
+    "mapPlaceholder": "Reemplazar con su integración de Google Maps",
+    "form": {
+      "title": "Solicitar un Estimado Gratuito",
+      "required": "Todos los campos marcados con * son obligatorios.",
+      "nameLabel": "Nombre Completo",
+      "namePlaceholder": "Juan García",
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "juan@empresa.com",
+      "phoneLabel": "Teléfono",
+      "phonePlaceholder": "(555) 000-0000",
+      "serviceLabel": "Servicio Requerido",
+      "servicePlaceholder": "Seleccione un servicio…",
+      "projectTypeLabel": "Tipo de Proyecto",
+      "messageLabel": "Detalles del Proyecto",
+      "messagePlaceholder": "Describa su proyecto: tamaño, ubicación, plazos, cualquier requisito específico…",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando…",
+      "errorMessage": "Algo salió mal. Por favor intente de nuevo o llámenos directamente.",
+      "privacy": "Al enviar, acepta nuestra Política de Privacidad. Nunca compartimos sus datos.",
+      "successTitle": "¡Mensaje Enviado!",
+      "successMessage": "Gracias por contactarnos. Nuestro equipo revisará su solicitud y responderá dentro de 48 horas hábiles.",
+      "sendAnother": "Enviar otro mensaje",
+      "services": [
+        "Sistemas de Techos de Metal",
+        "Fabricación de Lámina",
+        "Canalones y Drenaje",
+        "Tragaluces y Ventilación",
+        "Reparaciones y Mantenimiento",
+        "Proyecto Comercial",
+        "Otro"
+      ],
+      "projectTypes": ["Comercial", "Residencial", "Industrial", "Institucional"]
+    },
+    "info": {
+      "callTitle": "Llámenos",
+      "callSub": "Lun–Vie: 7AM–6PM · Sáb: 8AM–1PM",
+      "emailTitle": "Escríbanos",
+      "emailSub": "Respondemos en 48 horas hábiles",
+      "visitTitle": "Visítenos",
+      "visitSub": "Con cita previa preferentemente",
+      "hoursTitle": "Horario de Oficina",
+      "fullyBonded": "Totalmente asegurado · Cumple OSHA",
+      "emergency": "Servicio de Emergencia Disponible",
+      "emergencyDesc": "¿Gotera o daño por tormenta? Ofrecemos respuesta de emergencia las 24 horas.",
+      "callEmergency": "Llamar Línea de Emergencia",
+      "quickLinks": "Enlaces Rápidos",
+      "viewServices": "Ver Nuestros Servicios",
+      "learnTeam": "Conocer Nuestro Equipo"
+    }
+  },
+  "footer": {
+    "description": "Golden Rooster Construction — servicios profesionales de estructura de madera y techado de metal para proyectos residenciales y comerciales. Trabajo de calidad, precios honestos, resultados garantizados.",
+    "company": "Compañía",
+    "services": "Servicios",
+    "followUs": "Síguenos",
+    "copyright": "© {year} Golden Rooster Construction. Todos los derechos reservados.",
+    "licenseLabel": "Licenciado y Completamente Asegurado",
+    "links": {
+      "about": "Nosotros",
+      "team": "Nuestro Equipo",
+      "values": "Nuestros Valores",
+      "careers": "Empleos",
+      "woodFraming": "Estructura de Madera",
+      "metalRoofing": "Techos de Metal"
+    }
+  }
+}
