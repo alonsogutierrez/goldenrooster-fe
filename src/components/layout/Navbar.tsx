@@ -49,7 +49,7 @@ export default function Navbar() {
         )}
       >
         <nav className="container-xl">
-          <div className="flex items-center justify-between h-[72px] lg:h-20">
+          <div className="flex items-center justify-between h-[80px] lg:h-[90px]">
 
             {/* ── Logo ── */}
             <Link
@@ -58,7 +58,7 @@ export default function Navbar() {
               aria-label={`${SITE.name} – Home`}
             >
               <motion.div
-                className="relative h-14 w-[140px] transition-all duration-300 group-hover:opacity-90"
+                className="relative h-[52px] lg:h-[60px] w-[62px] transition-all duration-300 group-hover:opacity-90"
                 animate={{ x: [0, 4, 0, -4, 0] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
               >
