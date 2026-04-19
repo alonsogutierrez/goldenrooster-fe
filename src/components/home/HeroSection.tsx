@@ -75,19 +75,19 @@ export default function HeroSection() {
             </span>
           </motion.div>
 
-          {/* Headline */}
+          {/* Headline — H1 con keyword principal para SEO */}
           <motion.h1
-            className="font-heading font-black text-white leading-[1.08] mb-6"
+            className="font-heading font-black text-white leading-[1.08] mb-3"
             style={{ fontSize: "clamp(2.8rem, 7vw, 5.5rem)" }}
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           >
-            BUILT STRONG.
+            METAL ROOFING
             <br />
-            <span className="text-accent">ROOFED</span>{" "}
+            <span className="text-accent">CONTRACTOR</span>{" "}
             <span className="relative">
-              RIGHT.
+              HOUSTON TX
               <motion.span
                 className="absolute -bottom-2 left-0 right-0 h-[3px] bg-accent/50 rounded-full"
                 initial={{ scaleX: 0 }}
@@ -98,6 +98,16 @@ export default function HeroSection() {
             </span>
           </motion.h1>
 
+          {/* Tagline */}
+          <motion.p
+            className="font-heading font-semibold text-white/40 text-sm tracking-[0.18em] uppercase mb-6"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            Built Strong. Roofed Right.
+          </motion.p>
+
           {/* Subtitle */}
           <motion.p
             className="text-white/65 text-lg lg:text-xl max-w-xl leading-relaxed mb-10"
@@ -105,8 +115,8 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
           >
-            Professional Wood Framing & Metal Roofing Services for Residential
-            and Commercial Projects.
+            Professional wood framing & metal roofing installation, repair, and
+            remodeling for residential and commercial projects across Texas.
           </motion.p>
 
           {/* CTAs */}
