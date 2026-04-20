@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown, ShieldCheck, Clock, Award } from "lucide-react";
+import Image from "next/image";
 import { SITE } from "@/lib/constants";
 
 export default function HeroSection() {
@@ -26,37 +27,23 @@ export default function HeroSection() {
       className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-primary-dark"
       aria-label="Hero"
     >
-      <div className="absolute inset-0 grid-pattern pointer-events-none" />
-      <div className="absolute inset-0 diagonal-lines pointer-events-none" />
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background:
-            "radial-gradient(ellipse 80% 80% at 20% 40%, rgba(74,123,157,0.12) 0%, transparent 60%), " +
-            "radial-gradient(ellipse 60% 60% at 80% 60%, rgba(245,130,31,0.08) 0%, transparent 50%)",
-        }}
-      />
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/hero-banner.jpg"
+          alt="Golden Rooster Construction crew working on a metal structure"
+          fill
+          className="object-cover object-center"
+          priority
+          quality={85}
+        />
+        {/* Dark overlay — heavier on mobile for text legibility */}
+        <div className="absolute inset-0 bg-primary-dark/70 md:bg-primary-dark/60" />
+        {/* Bottom gradient to blend into the white wedge */}
+        <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-primary-dark/80 pointer-events-none" />
+      </div>
 
-      <motion.div
-        className="absolute top-24 right-[12%] w-28 h-28 border border-accent/15 rounded-sm"
-        animate={{ rotate: 360 }}
-        transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
-      />
-      <motion.div
-        className="absolute bottom-32 left-[8%] w-16 h-16 border border-white/8 rounded-sm"
-        animate={{ rotate: -360 }}
-        transition={{ duration: 22, repeat: Infinity, ease: "linear" }}
-      />
-      <motion.div
-        className="absolute top-1/2 right-[6%] w-6 h-6 bg-accent/20 rounded-sm"
-        animate={{ y: [0, -12, 0] }}
-        transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute top-1/3 left-[18%] w-3 h-3 bg-accent rounded-sm opacity-30"
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-      />
+      <div className="absolute inset-0 grid-pattern pointer-events-none opacity-20" />
 
       <div
         className="absolute bottom-0 left-0 right-0 h-24 bg-white pointer-events-none"
