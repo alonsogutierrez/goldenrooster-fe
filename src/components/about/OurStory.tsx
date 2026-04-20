@@ -32,15 +32,37 @@ export default function OurStory() {
 
           <div className="space-y-10">
             <ScrollReveal direction="right" delay={0.1}>
-              <div className="relative rounded-sm overflow-hidden aspect-video shadow-primary-lg">
-                <Image
-                  src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=900&q=80"
-                  alt="Golden Rooster Construction team"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent" />
+              <div className="space-y-3">
+                <div className="relative rounded-sm overflow-hidden aspect-[4/3] shadow-primary-lg bg-gray-900">
+                  <Image
+                    src="/WhatsApp Image 2026-03-13 at 12.28.25 PM.jpeg"
+                    alt="Golden Rooster Construction — equipo en obra"
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent pointer-events-none" />
+                </div>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="relative rounded-sm overflow-hidden aspect-[4/3] shadow-md bg-gray-900">
+                    <Image
+                      src="/WhatsApp Image 2026-03-13 at 12.28.26 PM(1).jpeg"
+                      alt="Golden Rooster Construction — trabajo de techos"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 50vw, 25vw"
+                    />
+                  </div>
+                  <div className="relative rounded-sm overflow-hidden aspect-[4/3] shadow-md bg-gray-900">
+                    <Image
+                      src="/WhatsApp Image 2026-03-14 at 2.12.12 PM.jpeg"
+                      alt="Golden Rooster Construction — instalación de techos"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 50vw, 25vw"
+                    />
+                  </div>
+                </div>
               </div>
             </ScrollReveal>
 

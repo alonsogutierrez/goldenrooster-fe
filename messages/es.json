@@ -206,56 +206,31 @@
     }
   },
   "contact": {
-    "heroTitle": "Contáctenos",
-    "heroSubtitle": "¿Tiene un proyecto en mente? Nuestro equipo está listo para proporcionar un estimado gratuito y detallado y responder cualquier pregunta que tenga.",
-    "mapPlaceholder": "Reemplazar con su integración de Google Maps",
-    "form": {
-      "title": "Solicitar un Estimado Gratuito",
-      "required": "Todos los campos marcados con * son obligatorios.",
-      "nameLabel": "Nombre Completo",
-      "namePlaceholder": "Juan García",
-      "emailLabel": "Correo Electrónico",
-      "emailPlaceholder": "juan@empresa.com",
-      "phoneLabel": "Teléfono",
-      "phonePlaceholder": "(555) 000-0000",
-      "serviceLabel": "Servicio Requerido",
-      "servicePlaceholder": "Seleccione un servicio…",
-      "projectTypeLabel": "Tipo de Proyecto",
-      "messageLabel": "Detalles del Proyecto",
-      "messagePlaceholder": "Describa su proyecto: tamaño, ubicación, plazos, cualquier requisito específico…",
-      "submit": "Enviar Mensaje",
-      "sending": "Enviando…",
-      "errorMessage": "Algo salió mal. Por favor intente de nuevo o llámenos directamente.",
-      "privacy": "Al enviar, acepta nuestra Política de Privacidad. Nunca compartimos sus datos.",
-      "successTitle": "¡Mensaje Enviado!",
-      "successMessage": "Gracias por contactarnos. Nuestro equipo revisará su solicitud y responderá dentro de 48 horas hábiles.",
-      "sendAnother": "Enviar otro mensaje",
-      "services": [
-        "Sistemas de Techos de Metal",
-        "Fabricación de Lámina",
-        "Canalones y Drenaje",
-        "Tragaluces y Ventilación",
-        "Reparaciones y Mantenimiento",
-        "Proyecto Comercial",
-        "Otro"
-      ],
-      "projectTypes": ["Comercial", "Residencial", "Industrial", "Institucional"]
+    "heroTitle": "Inicia Tu Proyecto",
+    "heroSubtitle": "Cotiza gratis. Respondemos en menos de 24 horas hábiles.",
+    "whatsapp": {
+      "title": "Escríbenos por WhatsApp",
+      "sub": "Respuesta inmediata · Lun–Vie 8AM–6PM",
+      "message": "¡Hola! Me gustaría obtener un estimado gratuito para mi proyecto de construcción o techado."
     },
+    "email": {
+      "title": "Envíanos un Correo",
+      "subPrimary": "Consultas generales y estimados",
+      "subAlt": "Proyectos y seguimiento"
+    },
+    "openAction": "Abrir",
     "info": {
-      "callTitle": "Llámenos",
-      "callSub": "Lun–Vie: 7AM–6PM · Sáb: 8AM–1PM",
-      "emailTitle": "Escríbanos",
-      "emailSub": "Respondemos en 48 horas hábiles",
-      "visitTitle": "Visítenos",
-      "visitSub": "Con cita previa preferentemente",
-      "hoursTitle": "Horario de Oficina",
-      "fullyBonded": "Totalmente asegurado · Cumple OSHA",
-      "emergency": "Servicio de Emergencia Disponible",
-      "emergencyDesc": "¿Gotera o daño por tormenta? Ofrecemos respuesta de emergencia las 24 horas.",
-      "callEmergency": "Llamar Línea de Emergencia",
-      "quickLinks": "Enlaces Rápidos",
-      "viewServices": "Ver Nuestros Servicios",
-      "learnTeam": "Conocer Nuestro Equipo"
+      "phoneLabel": "Teléfono",
+      "emailLabel": "Correo",
+      "coverageLabel": "Cobertura",
+      "scheduleLabel": "Horario",
+      "scheduleValue": "Lun–Vie 7:00 AM – 6:00 PM · Sáb 8:00 AM – 1:00 PM",
+      "coverageValue": "Gran Houston, TX · Dallas · Austin · San Antonio"
+    },
+    "coverage": {
+      "title": "Área de Cobertura",
+      "description": "Atendemos con orgullo el <b>Gran Houston</b>, <b>Dallas</b>, <b>Austin</b> y <b>San Antonio</b> y sus alrededores en Texas.",
+      "note": "Para proyectos fuera de nuestra área estándar, consúltanos según la envergadura del proyecto."
     }
   },
   "footer": {
