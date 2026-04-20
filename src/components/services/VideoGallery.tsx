@@ -4,7 +4,7 @@ import { useState, useRef } from "react";
 import { Play } from "lucide-react";
 import { PROJECT_VIDEOS } from "@/lib/constants";
 
-function VideoCard({ src }: { src: string }) {
+function VideoCard({ src, poster }: { src: string; poster: string }) {
   const [playing, setPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -18,6 +18,7 @@ function VideoCard({ src }: { src: string }) {
       <video
         ref={videoRef}
         src={src}
+        poster={poster}
         preload="none"
         controls={playing}
         playsInline
@@ -62,7 +63,7 @@ export default function VideoGallery({ tag, title, titleHighlight, subtitle }: V
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {PROJECT_VIDEOS.map((video) => (
-            <VideoCard key={video.id} src={video.src} />
+            <VideoCard key={video.id} src={video.src} poster={video.poster} />
           ))}
         </div>
       </div>
