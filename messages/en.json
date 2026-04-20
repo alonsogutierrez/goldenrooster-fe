@@ -71,6 +71,12 @@
         ]
       }
     },
+    "videos": {
+      "tag": "See Us Work",
+      "title": "Our Projects",
+      "titleHighlight": "In Action",
+      "subtitle": "Real footage from our job sites — metal roofing installations, wood framing, and commercial projects across Texas."
+    },
     "process": {
       "tag": "How We Work",
       "title": "Our Proven",

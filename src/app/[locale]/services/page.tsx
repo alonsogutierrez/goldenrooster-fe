@@ -7,6 +7,7 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import CTABanner from "@/components/home/CTABanner";
 import StatsSection from "@/components/home/StatsSection";
+import VideoGallery from "@/components/services/VideoGallery";
 import { SERVICES } from "@/lib/constants";
 
 const iconMap: Record<string, React.ElementType> = { Hammer, HardHat };
@@ -97,6 +98,13 @@ export default async function ServicesPage({
       </section>
 
       <StatsSection />
+
+      <VideoGallery
+        tag={t("videos.tag")}
+        title={t("videos.title")}
+        titleHighlight={t("videos.titleHighlight")}
+        subtitle={t("videos.subtitle")}
+      />
 
       <section className="section-padding bg-gray-50" aria-label="Our process">
         <div className="container-xl">

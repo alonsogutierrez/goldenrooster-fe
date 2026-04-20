@@ -100,6 +100,27 @@ export const TESTIMONIALS = [
 ];
 
 /* ─────────────────────────────────────
+   Project Videos — hosted on Cloudflare R2
+───────────────────────────────────── */
+const R2 = "https://pub-3c6a5eb70ab14c668f7c32ed2c20072f.r2.dev/videos";
+
+export const PROJECT_VIDEOS = [
+  { id: 1,  src: `${R2}/WhatsApp%20Video%202026-03-13%20at%2012.28.25%20PM.mp4` },
+  { id: 2,  src: `${R2}/WhatsApp%20Video%202026-03-13%20at%2012.28.25%20PM(1).mp4` },
+  { id: 3,  src: `${R2}/WhatsApp%20Video%202026-03-13%20at%2012.28.25%20PM(2).mp4` },
+  { id: 4,  src: `${R2}/WhatsApp%20Video%202026-03-13%20at%2012.28.25%20PM(3).mp4` },
+  { id: 5,  src: `${R2}/WhatsApp%20Video%202026-03-13%20at%2012.28.26%20PM.mp4` },
+  { id: 6,  src: `${R2}/WhatsApp%20Video%202026-04-08%20at%204.51.48%20PM(1).mp4` },
+  { id: 7,  src: `${R2}/WhatsApp%20Video%202026-04-08%20at%204.51.49%20PM(1).mp4` },
+  { id: 8,  src: `${R2}/WhatsApp%20Video%202026-04-08%20at%204.51.49%20PM.mp4` },
+  { id: 9,  src: `${R2}/WhatsApp%20Video%202026-04-09%20at%205.04.57%20PM.mp4` },
+  { id: 10, src: `${R2}/WhatsApp%20Video%202026-04-09%20at%205.07.10%20PM.mp4` },
+  { id: 11, src: `${R2}/WhatsApp%20Video%202026-04-09%20at%205.12.16%20PM.mp4` },
+  { id: 12, src: `${R2}/WhatsApp%20Video%202026-04-09%20at%205.17.26%20PM.mp4` },
+  { id: 13, src: `${R2}/WhatsApp%20Video%202026-04-09%20at%205.18.12%20PM.mp4` },
+];
+
+/* ─────────────────────────────────────
    Team — structural data, roles/bios in messages/about.team.members[i]
 ───────────────────────────────────── */
 export const TEAM = [

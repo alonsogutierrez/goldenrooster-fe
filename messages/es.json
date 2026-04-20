@@ -71,6 +71,12 @@
         ]
       }
     },
+    "videos": {
+      "tag": "Véanos Trabajar",
+      "title": "Nuestros Proyectos",
+      "titleHighlight": "en Acción",
+      "subtitle": "Imágenes reales de nuestras obras — instalaciones de techos de metal, enmarcado de madera y proyectos comerciales en Texas."
+    },
     "process": {
       "tag": "Cómo Trabajamos",
       "title": "Nuestro",
