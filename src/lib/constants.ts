@@ -10,6 +10,9 @@ export const SITE = {
   phoneHref: "tel:+18005433862",
   email: "info@goldenroostersroofing.com",
   emailHref: "mailto:info@goldenroostersroofing.com",
+  emailAlt: "rodma15@goldenroostersroofing.com",
+  emailAltHref: "mailto:rodma15@goldenroostersroofing.com",
+  whatsappNumber: "18005433862",
   address: {
     street: "1234 Industrial Blvd",
     city: "Houston",
@@ -126,8 +129,6 @@ export const PROJECT_VIDEOS = [
 export const TEAM = [
   { name: "Guillermo Andrade Moncada", avatar: "/dueño.png" },
   { name: "Iván Said Rodriguez Mauricio", avatar: "/gerente.png" },
-  { name: "Michael Torres", avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" },
-  { name: "Lisa Thompson", avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80" },
 ];
 
 /* ─────────────────────────────────────

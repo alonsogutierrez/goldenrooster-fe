@@ -28,7 +28,7 @@ export default function TeamSection() {
           />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
           {TEAM.map((member, i) => {
             const info = members[i] ?? { title: "", bio: "" };
             return (

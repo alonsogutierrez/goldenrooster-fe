@@ -206,56 +206,31 @@
     }
   },
   "contact": {
-    "heroTitle": "Get in Touch",
-    "heroSubtitle": "Have a project in mind? Our team is ready to provide a free, detailed estimate and answer any questions you have.",
-    "mapPlaceholder": "Replace with your Google Maps embed",
-    "form": {
-      "title": "Request a Free Estimate",
-      "required": "All fields marked * are required.",
-      "nameLabel": "Full Name",
-      "namePlaceholder": "John Smith",
-      "emailLabel": "Email",
-      "emailPlaceholder": "john@company.com",
-      "phoneLabel": "Phone",
-      "phonePlaceholder": "(555) 000-0000",
-      "serviceLabel": "Service Needed",
-      "servicePlaceholder": "Select a service…",
-      "projectTypeLabel": "Project Type",
-      "messageLabel": "Project Details",
-      "messagePlaceholder": "Describe your project: size, location, timeline, any specific requirements…",
-      "submit": "Send Message",
-      "sending": "Sending…",
-      "errorMessage": "Something went wrong. Please try again or call us directly.",
-      "privacy": "By submitting, you agree to our Privacy Policy. We never share your data.",
-      "successTitle": "Message Sent!",
-      "successMessage": "Thank you for reaching out. Our team will review your request and respond within 48 business hours.",
-      "sendAnother": "Send another message",
-      "services": [
-        "Metal Roofing Systems",
-        "Sheet Metal Fabrication",
-        "Gutter & Drainage",
-        "Skylights & Ventilation",
-        "Repairs & Maintenance",
-        "Commercial Project",
-        "Other"
-      ],
-      "projectTypes": ["Commercial", "Residential", "Industrial", "Institutional"]
+    "heroTitle": "Start Your Project",
+    "heroSubtitle": "Get a free quote. We respond within 24 business hours.",
+    "whatsapp": {
+      "title": "Write to Us on WhatsApp",
+      "sub": "Immediate response · Mon–Fri 8AM–6PM",
+      "message": "Hi! I'd like a free estimate for my construction or roofing project."
     },
+    "email": {
+      "title": "Send Us an Email",
+      "subPrimary": "General inquiries & estimates",
+      "subAlt": "Projects & follow-up"
+    },
+    "openAction": "Open",
     "info": {
-      "callTitle": "Call Us",
-      "callSub": "Mon–Fri: 7AM–6PM · Sat: 8AM–1PM",
-      "emailTitle": "Email Us",
-      "emailSub": "We reply within 48 business hours",
-      "visitTitle": "Visit Us",
-      "visitSub": "By appointment preferred",
-      "hoursTitle": "Office Hours",
-      "fullyBonded": "Fully bonded · OSHA compliant",
-      "emergency": "Emergency Service Available",
-      "emergencyDesc": "Roof leak or storm damage? We offer emergency response 24/7.",
-      "callEmergency": "Call Emergency Line",
-      "quickLinks": "Quick Links",
-      "viewServices": "View Our Services",
-      "learnTeam": "Learn About Our Team"
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "coverageLabel": "Coverage",
+      "scheduleLabel": "Hours",
+      "scheduleValue": "Mon–Fri 7:00 AM – 6:00 PM · Sat 8:00 AM – 1:00 PM",
+      "coverageValue": "Greater Houston, TX · Dallas · Austin · San Antonio"
+    },
+    "coverage": {
+      "title": "Service Area",
+      "description": "We proudly serve <b>Greater Houston</b>, <b>Dallas</b>, <b>Austin</b>, and <b>San Antonio</b> and surrounding areas across Texas.",
+      "note": "For projects outside our standard coverage area, contact us to discuss scope."
     }
   },
   "footer": {
