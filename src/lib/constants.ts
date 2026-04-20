@@ -52,8 +52,8 @@ export const NAV_LINKS = [
    Services — structural only, text in messages/services.items.*
 ───────────────────────────────────── */
 export const SERVICES = [
-  { id: "wood-framing", icon: "Hammer", color: "from-primary-dark to-primary" },
-  { id: "metal-roofing", icon: "HardHat", color: "from-accent-dark to-accent" },
+  { id: "wood-framing",  icon: "Hammer",  color: "from-primary-dark to-primary", image: "/thumbnails/video-9.jpg" },
+  { id: "metal-roofing", icon: "HardHat", color: "from-accent-dark to-accent",  image: "/thumbnails/video-1.jpg" },
 ];
 
 /* ─────────────────────────────────────

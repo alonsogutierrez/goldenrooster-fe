@@ -4,12 +4,12 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { motion } from "framer-motion";
 import { Hammer, HardHat, Building2, ArrowRight } from "lucide-react";
+import Image from "next/image";
 import SectionHeader from "@/components/ui/SectionHeader";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { SERVICES } from "@/lib/constants";
 
 const iconMap: Record<string, React.ElementType> = { Hammer, HardHat };
-const cardColors = ["from-primary-dark to-primary", "from-accent-dark to-accent"];
 
 export default function ServicesSection() {
   const t = useTranslations("services");
@@ -43,16 +43,26 @@ export default function ServicesSection() {
             return (
               <ScrollReveal key={service.id} delay={i * 0.08} direction="up" className="group">
                 <div className="card h-full flex flex-col p-0 overflow-hidden border-0 rounded-sm shadow-card hover:shadow-card-hover hover:-translate-y-1.5 transition-all duration-350">
-                  <div className={`h-1 w-full bg-gradient-to-r ${cardColors[i % cardColors.length]}`} />
 
-                  <div className="flex flex-col gap-4 p-7 flex-1">
+                  {/* Photo header */}
+                  <div className="relative h-52 overflow-hidden">
+                    <Image
+                      src={service.image}
+                      alt={title}
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                    <div className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-60`} />
                     <motion.div
-                      className="icon-box-accent self-start animate-float-sm"
+                      className="absolute bottom-4 left-5 w-11 h-11 rounded-sm bg-white/15 backdrop-blur-sm border border-white/25 flex items-center justify-center text-white animate-float-sm"
                       style={{ animationDelay: `${i * 0.4}s` }}
                     >
                       <Icon size={22} strokeWidth={1.8} />
                     </motion.div>
+                  </div>
 
+                  <div className="flex flex-col gap-4 p-7 flex-1">
                     <h3 className="font-heading font-bold text-xl text-primary group-hover:text-accent transition-colors duration-300">
                       {title}
                     </h3>
