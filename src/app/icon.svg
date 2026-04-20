@@ -1,0 +1,33 @@
+<svg width="80" height="64" viewBox="0 0 80 64" fill="none"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="The Golden Rooster Sheet Metal – Icon">
+
+  <!--
+    Standalone icon mark — use for favicon, app icon, social avatar, etc.
+    Gold (#D4A020) + Red (#CC2B2B) on transparent background.
+  -->
+
+  <!-- Left house -->
+  <polygon points="0,32 16,15 32,32" fill="#CC2B2B"/>
+  <path fill-rule="evenodd" fill="#D4A020"
+        d="M0,32 L32,32 L32,60 L0,60 Z
+           M7,39 L17,39 L17,49 L7,49 Z"/>
+
+  <!-- Right house -->
+  <polygon points="52,28 66,12 80,28" fill="#CC2B2B"/>
+  <path fill-rule="evenodd" fill="#D4A020"
+        d="M52,28 L80,28 L80,60 L52,60 Z
+           M63,37 L73,37 L73,47 L63,47 Z"/>
+
+  <!-- Center house (tallest, front) -->
+  <rect x="51" y="4" width="6" height="14" fill="#D4A020"/>
+  <polygon points="20,22 41,4 62,22" fill="#CC2B2B"/>
+  <path fill-rule="evenodd" fill="#D4A020"
+        d="M20,22 L62,22 L62,60 L20,60 Z
+           M26,32 L36,32 L36,42 L26,42 Z
+           M41,32 L51,32 L51,42 L41,42 Z"/>
+
+  <!-- Ground line -->
+  <rect x="0" y="61" width="80" height="2" fill="#D4A020" opacity="0.30" rx="1"/>
+
+</svg>
