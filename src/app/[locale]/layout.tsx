@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import LanguageSelector from "@/components/ui/LanguageSelector";
 import "../globals.css";
 
 const montserrat = Montserrat({
@@ -128,6 +129,7 @@ export default async function LocaleLayout({
       </head>
       <body className="font-body antialiased bg-white text-gray-800">
         <NextIntlClientProvider messages={messages}>
+          <LanguageSelector />
           <Navbar />
           <main className="page-enter">{children}</main>
           <Footer />
