@@ -62,6 +62,24 @@ export default function OurStory() {
                       sizes="(max-width: 768px) 50vw, 25vw"
                     />
                   </div>
+                  <div className="relative rounded-sm overflow-hidden aspect-[4/3] shadow-md bg-gray-900">
+                    <Image
+                      src="/trabajador1.jpeg"
+                      alt="Golden Rooster Construction — trabajador en obra"
+                      fill
+                      className="object-cover object-top"
+                      sizes="(max-width: 768px) 50vw, 25vw"
+                    />
+                  </div>
+                  <div className="relative rounded-sm overflow-hidden aspect-[4/3] shadow-md bg-gray-900">
+                    <Image
+                      src="/trabajador2.jpeg"
+                      alt="Golden Rooster Construction — trabajador instalando techos"
+                      fill
+                      className="object-cover object-top"
+                      sizes="(max-width: 768px) 50vw, 25vw"
+                    />
+                  </div>
                 </div>
               </div>
             </ScrollReveal>
