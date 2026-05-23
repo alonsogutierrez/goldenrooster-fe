@@ -30,26 +30,37 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.goldenroostersroofing.com"),
   title: {
-    default: "Metal Roofing Contractor Houston TX | Golden Rooster Construction",
-    template: "%s | Golden Rooster Construction Houston TX",
+    default: "Roofing & Construction Contractor | Golden Rooster Construction",
+    template: "%s | Golden Rooster Construction",
   },
   description:
-    "Licensed metal roofing contractor in Houston, TX. Expert standing seam installation, metal roof repair & remodeling, and wood framing for commercial & residential projects. 25+ years. Free estimates — call (800) 543-3862.",
+    "Licensed construction contractor serving Colorado, Wyoming, Nebraska & California. Expert roofing, wood framing, steel frame, dry wall, remodeling & siding. 25+ years. Free estimates — call (800) 543-3862.",
   authors: [{ name: "Golden Rooster Construction" }],
   creator: "Golden Rooster Construction",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
+    other: [
+      { rel: "mask-icon", url: "/logo-rooster.png" },
+    ],
+  },
+  manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     url: "https://www.goldenroostersroofing.com",
-    title: "Metal Roofing Contractor Houston TX | Golden Rooster Construction",
+    title: "Roofing & Construction Contractor | Golden Rooster Construction",
     description:
-      "Licensed metal roofing contractor in Houston, TX. Standing seam installation, roof repair, remodeling & wood framing. 25+ years of experience. Free estimates.",
+      "Licensed construction contractor serving Colorado, Wyoming, Nebraska & California. Roofing, framing, steel frame, dry wall, remodeling & siding. 25+ years of experience. Free estimates.",
     siteName: "Golden Rooster Construction",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Golden Rooster Construction — Metal Roofing Contractor Houston TX",
+        alt: "Golden Rooster Construction — Roofing & Construction Contractor",
       },
     ],
   },
@@ -74,26 +85,28 @@ const jsonLd = {
   description:
     "Licensed metal roofing contractor in Houston, TX. Expert in standing seam installation, metal roof repair & remodeling, and wood framing.",
   url: "https://www.goldenroostersroofing.com",
-  logo: "https://www.goldenroostersroofing.com/logo-icon.svg",
+  logo: "https://www.goldenroostersroofing.com/logo-rooster.png",
   image: "https://www.goldenroostersroofing.com/og-image.jpg",
   telephone: "+1-800-543-3862",
   email: "info@goldenroostersroofing.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "1234 Industrial Blvd",
-    addressLocality: "Houston",
-    addressRegion: "TX",
-    postalCode: "77001",
+    streetAddress: "336 Wheatberry Dr",
+    addressLocality: "Brighton",
+    addressRegion: "CO",
+    postalCode: "80601",
     addressCountry: "US",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: "29.7604",
-    longitude: "-95.3698",
+    latitude: "40.0753",
+    longitude: "-104.8124",
   },
   areaServed: [
-    { "@type": "City", name: "Houston" },
-    { "@type": "AdministrativeArea", name: "Texas" },
+    { "@type": "AdministrativeArea", name: "Colorado" },
+    { "@type": "AdministrativeArea", name: "Wyoming" },
+    { "@type": "AdministrativeArea", name: "Nebraska" },
+    { "@type": "AdministrativeArea", name: "California" },
   ],
   priceRange: "$$",
   sameAs: [
