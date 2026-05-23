@@ -1,7 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { Hammer, HardHat, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Hammer, HardHat, Layers, Wrench, Building2, Home, Grid3X3, ArrowRight, CheckCircle2 } from "lucide-react";
 import AboutHero from "@/components/about/AboutHero";
 import SectionHeader from "@/components/ui/SectionHeader";
 import ScrollReveal from "@/components/ui/ScrollReveal";
@@ -10,12 +10,7 @@ import StatsSection from "@/components/home/StatsSection";
 import VideoGallery from "@/components/services/VideoGallery";
 import { SERVICES } from "@/lib/constants";
 
-const iconMap: Record<string, React.ElementType> = { Hammer, HardHat };
-
-const serviceImages = [
-  "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80",
-];
+const iconMap: Record<string, React.ElementType> = { Hammer, HardHat, Layers, Wrench, Building2, Home, Grid3X3 };
 
 export default async function ServicesPage({
   params,
@@ -37,11 +32,14 @@ export default async function ServicesPage({
           {SERVICES.map((service, i) => {
             const Icon = iconMap[service.icon] ?? Hammer;
             const isEven = i % 2 === 0;
-            const itemKey = service.id as "wood-framing" | "metal-roofing";
-            const title = t(`items.${itemKey}.title`);
-            const desc1 = t(`items.${itemKey}.description1`);
-            const desc2 = t(`items.${itemKey}.description2`);
-            const features = t.raw(`items.${itemKey}.features`) as string[];
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const title = t(`items.${service.id}.title` as any);
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const desc1 = t(`items.${service.id}.description1` as any);
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const desc2 = t(`items.${service.id}.description2` as any);
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const features = t.raw(`items.${service.id}.features` as any) as string[];
 
             return (
               <ScrollReveal key={service.id} direction="up" delay={0.05}>
@@ -53,7 +51,7 @@ export default async function ServicesPage({
                 >
                   <div className="relative rounded-sm overflow-hidden aspect-video shadow-primary-lg group">
                     <Image
-                      src={serviceImages[i]}
+                      src={service.image}
                       alt={title}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-105"

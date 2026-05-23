@@ -86,6 +86,10 @@ export default function Footer() {
                 <Mail size={14} className="text-accent/60 group-hover:text-accent flex-shrink-0" />
                 {SITE.email}
               </a>
+              <a href={SITE.emailAltHref} className="flex items-center gap-2.5 text-white/60 hover:text-accent text-sm transition-colors duration-200 group">
+                <Mail size={14} className="text-accent/60 group-hover:text-accent flex-shrink-0" />
+                {SITE.emailAlt}
+              </a>
               <div className="flex items-start gap-2.5 text-white/60 text-sm">
                 <MapPin size={14} className="text-accent/60 flex-shrink-0 mt-0.5" />
                 {SITE.address.full}

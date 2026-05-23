@@ -4,6 +4,11 @@
     "services": "Services",
     "woodFraming": "Wood Framing",
     "metalRoofing": "Metal Roofing — Repair & Remodeling",
+    "dryWall": "Dry Wall",
+    "remodeling": "Remodeling",
+    "steelFrame": "Steel Frame",
+    "roofing": "Roofing",
+    "siding": "Siding",
     "about": "About Us",
     "contact": "Contact",
     "getQuote": "Get a Quote"
@@ -12,9 +17,9 @@
     "badge": "Golden Rooster Construction",
     "title1": "METAL ROOFING",
     "titleAccent": "CONTRACTOR",
-    "titleLocation": "HOUSTON TX",
+    "titleLocation": "BRIGHTON CO",
     "tagline": "Built Strong. Roofed Right.",
-    "subtitle": "Professional wood framing & metal roofing installation, repair, and remodeling for residential and commercial projects across Texas.",
+    "subtitle": "Professional construction services — roofing, framing, steel structure, dry wall, remodeling, and siding for residential and commercial projects across Colorado, Wyoming, Nebraska, and California.",
     "ctaPrimary": "Get a Free Estimate",
     "ctaSecondary": "Explore Services",
     "badge1": "Licensed & Fully Insured",
@@ -37,13 +42,13 @@
     "sectionTag": "What We Do",
     "sectionTitle": "Our",
     "sectionHighlight": "Services",
-    "sectionSubtitle": "From structural wood framing to metal roofing repair and remodeling — Golden Rooster Construction delivers quality work for residential and commercial projects.",
+    "sectionSubtitle": "From wood framing and steel structure to roofing, siding, dry wall, and remodeling — Golden Rooster Construction delivers quality work for residential and commercial projects.",
     "learnMore": "Learn More",
     "viewAll": "View All Services",
     "requestQuote": "Request a Quote",
     "serviceTag": "Service",
-    "heroTitle": "Wood Framing & Metal Roofing Services",
-    "heroSubtitle": "Professional construction and roofing solutions for residential and commercial projects — quality work, honest pricing, results you can count on.",
+    "heroTitle": "Full-Service Construction & Roofing",
+    "heroSubtitle": "Professional construction solutions for residential and commercial projects — roofing, framing, steel structure, dry wall, remodeling, siding, and more.",
     "items": {
       "wood-framing": {
         "title": "Wood Framing",
@@ -69,13 +74,78 @@
           "Gutters, flashing & trim work",
           "Residential & commercial metal roofing solutions"
         ]
+      },
+      "dry-wall": {
+        "title": "Dry Wall",
+        "description1": "Golden Rooster Construction provides professional drywall installation services for residential and commercial projects. From new construction to renovation work, our skilled crews deliver smooth, code-compliant finishes that serve as the perfect foundation for any interior space.",
+        "description2": "We handle everything from framing to finishing — taping, mudding, sanding, and texturing — ensuring every wall and ceiling meets your exact specifications. Whether you need fire-rated assemblies, moisture-resistant board, or standard drywall, we bring the right materials and the right technique every time.",
+        "features": [
+          "Residential drywall installation",
+          "Commercial drywall systems",
+          "Fire-rated & moisture-resistant assemblies",
+          "Taping, mudding & finishing",
+          "Ceiling & partition installation",
+          "Repairs & patch work"
+        ]
+      },
+      "remodeling": {
+        "title": "Remodeling",
+        "description1": "Transform your space with Golden Rooster's full-service remodeling solutions. Whether you're updating a kitchen, renovating a bathroom, or overhauling a commercial interior, our experienced team brings creativity, craftsmanship, and precision to every remodeling project.",
+        "description2": "We manage every stage of the remodeling process — from initial planning and demolition to framing, finishing, and final inspection — ensuring minimal disruption and maximum results. Our goal is to deliver a space that exceeds your vision, within your budget and on schedule.",
+        "features": [
+          "Kitchen & bathroom remodeling",
+          "Commercial interior renovation",
+          "Full-service project management",
+          "Structural modifications & additions",
+          "Finish work & custom millwork",
+          "Residential & commercial projects"
+        ]
+      },
+      "steel-frame": {
+        "title": "Steel Frame",
+        "description1": "Golden Rooster Construction delivers precision steel frame construction for commercial, industrial, and multi-family projects. Our steel framing systems provide superior strength, dimensional stability, and design flexibility — making them the preferred choice for demanding construction applications.",
+        "description2": "From light-gauge steel framing for interior partitions to structural steel systems for large commercial buildings, our crews are trained in the latest steel construction techniques and code requirements. We work efficiently to meet tight schedules without compromising structural integrity.",
+        "features": [
+          "Light-gauge steel framing",
+          "Commercial & industrial steel structures",
+          "Multi-story & multi-family applications",
+          "Interior partition systems",
+          "Steel truss & roof framing",
+          "Code-compliant construction throughout"
+        ]
+      },
+      "roofing": {
+        "title": "Roofing",
+        "description1": "Golden Rooster Construction provides comprehensive roofing services for residential and commercial properties across Colorado, Wyoming, Nebraska, and California. Our roofing specialists are experienced with a wide range of systems — from asphalt shingles to metal panels — delivering installations built to withstand the elements for decades.",
+        "description2": "We approach every roofing project with attention to detail, quality materials, and proven installation methods. Whether you're building new, replacing an aging roof, or dealing with storm damage, our team delivers lasting protection and peace of mind on every job.",
+        "features": [
+          "New residential & commercial roofing",
+          "Roof replacement & tear-off",
+          "Storm damage repair & insurance work",
+          "Asphalt shingle systems",
+          "Metal roofing panels",
+          "Flat & low-slope commercial roofing"
+        ]
+      },
+      "siding": {
+        "title": "Siding",
+        "description1": "Protect and beautify your building with professional siding installation from Golden Rooster Construction. We install a full range of exterior siding systems designed to enhance curb appeal, improve energy efficiency, and provide long-lasting weather protection for both residential and commercial properties.",
+        "description2": "Our siding crews are experienced with multiple materials and profiles — from vinyl and fiber cement to metal panel systems — ensuring a precise, clean installation that complements your building's architecture and meets local code requirements.",
+        "features": [
+          "Vinyl & fiber cement siding",
+          "Metal panel exterior cladding",
+          "Residential & commercial applications",
+          "Siding replacement & repair",
+          "Trim, soffit & fascia installation",
+          "Weather-resistant sealed systems"
+        ]
       }
     },
     "videos": {
       "tag": "See Us Work",
       "title": "Our Projects",
       "titleHighlight": "In Action",
-      "subtitle": "Real footage from our job sites — metal roofing installations, wood framing, and commercial projects across Texas."
+      "subtitle": "Real footage from our job sites — roofing, framing, remodeling, and construction projects across Colorado, Wyoming, Nebraska, and California."
     },
     "process": {
       "tag": "How We Work",
@@ -157,15 +227,15 @@
       "tag": "Our Story",
       "title": "25 Years of",
       "titleHighlight": "Precision & Pride",
-      "p1": "Golden Rooster Construction was founded in Houston, TX with an unwavering belief that quality and integrity should never be compromised. Starting with just a pickup truck and a passion for precision, we built the company panel by panel, project by project.",
-      "p2": "Today, we're proud to be one of the most trusted names in metal roofing and wood framing across Texas. Our team of 50+ certified craftsmen brings the same dedication to every single job — whether it's a custom residential installation or a 200,000 sq ft commercial complex.",
+      "p1": "Golden Rooster Construction was founded in Brighton, CO with an unwavering belief that quality and integrity should never be compromised. Starting with just a pickup truck and a passion for precision, we built the company project by project, state by state.",
+      "p2": "Today, we're proud to be one of the most trusted names in construction across Colorado, Wyoming, Nebraska, and California. Our team of 50+ certified craftsmen brings the same dedication to every single job — whether it's a residential remodel or a large-scale commercial build.",
       "p3": "What sets us apart isn't just our technical expertise — it's the culture of accountability and pride we've cultivated over 25 years. When you work with Golden Rooster, you're not hiring a contractor. You're gaining a long-term partner invested in the success of your project.",
       "milestones": [
-        { "year": "1998", "event": "Founded in Houston, TX with a 3-person team and a commitment to quality." },
+        { "year": "1998", "event": "Founded in Brighton, CO with a 3-person team and a commitment to quality." },
         { "year": "2005", "event": "Expanded into commercial roofing, landing our first 50,000 sq ft project." },
         { "year": "2012", "event": "Opened a state-of-the-art fabrication facility serving the Gulf Coast region." },
         { "year": "2020", "event": "Reached 2,000+ completed projects and 50+ full-time skilled craftsmen." },
-        { "year": "Today", "event": "Industry leaders in precision metal roofing across Texas and beyond." }
+        { "year": "Today", "event": "Trusted construction leaders serving Colorado, Wyoming, Nebraska, and California." }
       ]
     },
     "missionVision": {
@@ -213,6 +283,40 @@
       "sub": "Immediate response · Mon–Fri 8AM–6PM",
       "message": "Hi! I'd like a free estimate for my construction or roofing project."
     },
+    "form": {
+      "title": "Request a Free Estimate",
+      "required": "All fields marked * are required.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Smith",
+      "emailLabel": "Email",
+      "emailPlaceholder": "john@company.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "(555) 000-0000",
+      "serviceLabel": "Service Needed",
+      "servicePlaceholder": "Select a service…",
+      "projectTypeLabel": "Project Type",
+      "messageLabel": "Project Details",
+      "messagePlaceholder": "Describe your project: size, location, timeline, any specific requirements…",
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "errorMessage": "Something went wrong. Please try again or call us directly.",
+      "privacy": "By submitting, you agree to our Privacy Policy. We never share your data.",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for reaching out. Our team will review your request and respond within 48 business hours.",
+      "sendAnother": "Send another message",
+      "services": [
+        "Roofing",
+        "Metal Roofing — Repair & Remodeling",
+        "Wood Framing",
+        "Steel Frame",
+        "Dry Wall",
+        "Remodeling",
+        "Siding",
+        "Commercial Project",
+        "Other"
+      ],
+      "projectTypes": ["Commercial", "Residential", "Industrial", "Institutional"]
+    },
     "email": {
       "title": "Send Us an Email",
       "subPrimary": "General inquiries & estimates",
@@ -225,11 +329,11 @@
       "coverageLabel": "Coverage",
       "scheduleLabel": "Hours",
       "scheduleValue": "Mon–Fri 7:00 AM – 6:00 PM · Sat 8:00 AM – 1:00 PM",
-      "coverageValue": "Greater Houston, TX · Dallas · Austin · San Antonio"
+      "coverageValue": "Colorado · Wyoming · Nebraska · California"
     },
     "coverage": {
       "title": "Service Area",
-      "description": "We proudly serve <b>Greater Houston</b>, <b>Dallas</b>, <b>Austin</b>, and <b>San Antonio</b> and surrounding areas across Texas.",
+      "description": "We proudly serve <b>Colorado</b>, <b>Wyoming</b>, <b>Nebraska</b>, and <b>California</b> and surrounding areas.",
       "note": "For projects outside our standard coverage area, contact us to discuss scope."
     }
   },
@@ -246,7 +350,12 @@
       "values": "Our Values",
       "careers": "Careers",
       "woodFraming": "Wood Framing",
-      "metalRoofing": "Metal Roofing"
+      "metalRoofing": "Metal Roofing",
+      "dryWall": "Dry Wall",
+      "remodeling": "Remodeling",
+      "steelFrame": "Steel Frame",
+      "roofing": "Roofing",
+      "siding": "Siding"
     }
   }
 }

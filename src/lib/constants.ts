@@ -14,11 +14,11 @@ export const SITE = {
   emailAltHref: "mailto:rodma15@goldenroostersroofing.com",
   whatsappNumber: "18005433862",
   address: {
-    street: "1234 Industrial Blvd",
-    city: "Houston",
-    state: "TX",
-    zip: "77001",
-    full: "1234 Industrial Blvd, Houston, TX 77001",
+    street: "336 Wheatberry Dr",
+    city: "Brighton",
+    state: "CO",
+    zip: "80601",
+    full: "336 Wheatberry Dr, Brighton, CO 80601",
   },
   hours: {
     weekdays: "Monday – Friday: 7:00 AM – 6:00 PM",
@@ -31,7 +31,7 @@ export const SITE = {
     linkedin: "https://linkedin.com/company/goldenroostersroofing",
     youtube: "https://youtube.com/@goldenroostersroofing",
   },
-  license: "License #TX-54892 | Fully Insured",
+  license: "License #CO-54892 | Fully Insured",
 };
 
 /* ─────────────────────────────────────
@@ -45,6 +45,11 @@ export const NAV_LINKS = [
     dropdown: [
       { href: "/services#wood-framing", key: "woodFraming" },
       { href: "/services#metal-roofing", key: "metalRoofing" },
+      { href: "/services#dry-wall", key: "dryWall" },
+      { href: "/services#remodeling", key: "remodeling" },
+      { href: "/services#steel-frame", key: "steelFrame" },
+      { href: "/services#roofing", key: "roofing" },
+      { href: "/services#siding", key: "siding" },
     ],
   },
   { href: "/about", key: "about" },
@@ -55,8 +60,13 @@ export const NAV_LINKS = [
    Services — structural only, text in messages/services.items.*
 ───────────────────────────────────── */
 export const SERVICES = [
-  { id: "wood-framing",  icon: "Hammer",  color: "from-primary-dark to-primary", image: "/thumbnails/video-9.jpg" },
-  { id: "metal-roofing", icon: "HardHat", color: "from-accent-dark to-accent",  image: "/thumbnails/video-1.jpg" },
+  { id: "wood-framing",  icon: "Hammer",    color: "from-primary-dark to-primary",  image: "/thumbnails/video-9.jpg" },
+  { id: "metal-roofing", icon: "HardHat",   color: "from-accent-dark to-accent",    image: "/thumbnails/video-1.jpg" },
+  { id: "dry-wall",      icon: "Layers",    color: "from-steel-dark to-steel",       image: "/thumbnails/video-2.jpg" },
+  { id: "remodeling",    icon: "Wrench",    color: "from-primary to-primary-light",  image: "/thumbnails/video-3.jpg" },
+  { id: "steel-frame",   icon: "Building2", color: "from-steel to-primary",          image: "/thumbnails/video-4.jpg" },
+  { id: "roofing",       icon: "Home",      color: "from-accent-dark to-accent",     image: "/thumbnails/video-5.jpg" },
+  { id: "siding",        icon: "Grid3X3",   color: "from-steel-dark to-primary",     image: "/thumbnails/video-6.jpg" },
 ];
 
 /* ─────────────────────────────────────
@@ -85,12 +95,12 @@ export const WHY_US_ICONS = [
    Projects — structural data, text in messages/projects.items[i]
 ───────────────────────────────────── */
 export const PROJECTS = [
-  { id: 1, image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=800&q=80", year: "2023", location: "Houston, TX", category: "Commercial" },
-  { id: 2, image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80", year: "2023", location: "Dallas, TX", category: "Industrial" },
-  { id: 3, image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80", year: "2022", location: "Austin, TX", category: "Residential" },
-  { id: 4, image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80", year: "2022", location: "San Antonio, TX", category: "Commercial" },
-  { id: 5, image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80", year: "2022", location: "Austin, TX", category: "Commercial" },
-  { id: 6, image: "https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&w=800&q=80", year: "2021", location: "Houston, TX", category: "Industrial" },
+  { id: 1, image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=800&q=80", year: "2023", location: "Denver, CO", category: "Commercial" },
+  { id: 2, image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80", year: "2023", location: "Cheyenne, WY", category: "Industrial" },
+  { id: 3, image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80", year: "2022", location: "Omaha, NE", category: "Residential" },
+  { id: 4, image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80", year: "2022", location: "Colorado Springs, CO", category: "Commercial" },
+  { id: 5, image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80", year: "2022", location: "Sacramento, CA", category: "Commercial" },
+  { id: 6, image: "https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&w=800&q=80", year: "2021", location: "Brighton, CO", category: "Industrial" },
 ];
 
 /* ─────────────────────────────────────
@@ -149,5 +159,10 @@ export const FOOTER_LINKS = {
   services: [
     { href: "/services#wood-framing", key: "woodFraming" },
     { href: "/services#metal-roofing", key: "metalRoofing" },
+    { href: "/services#dry-wall", key: "dryWall" },
+    { href: "/services#remodeling", key: "remodeling" },
+    { href: "/services#steel-frame", key: "steelFrame" },
+    { href: "/services#roofing", key: "roofing" },
+    { href: "/services#siding", key: "siding" },
   ],
 };

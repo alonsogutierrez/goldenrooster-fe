@@ -4,6 +4,11 @@
     "services": "Servicios",
     "woodFraming": "Estructura de Madera",
     "metalRoofing": "Techos de Metal — Reparación y Remodelación",
+    "dryWall": "Tablaroca",
+    "remodeling": "Remodelación",
+    "steelFrame": "Estructura de Acero",
+    "roofing": "Techado",
+    "siding": "Revestimiento Exterior",
     "about": "Nosotros",
     "contact": "Contacto",
     "getQuote": "Cotización"
@@ -12,9 +17,9 @@
     "badge": "Golden Rooster Construction",
     "title1": "TECHADO",
     "titleAccent": "DE METAL",
-    "titleLocation": "HOUSTON TX",
+    "titleLocation": "BRIGHTON CO",
     "tagline": "Construido Sólido. Techado Correcto.",
-    "subtitle": "Instalación, reparación y remodelación profesional de techos de metal y estructuras de madera para proyectos residenciales y comerciales en Texas.",
+    "subtitle": "Servicios profesionales de construcción — techado, estructura, acero, tablaroca, remodelación y revestimiento para proyectos residenciales y comerciales en Colorado, Wyoming, Nebraska y California.",
     "ctaPrimary": "Obtener Estimado Gratis",
     "ctaSecondary": "Ver Servicios",
     "badge1": "Licenciados y Completamente Asegurados",
@@ -37,13 +42,13 @@
     "sectionTag": "Lo Que Hacemos",
     "sectionTitle": "Nuestros",
     "sectionHighlight": "Servicios",
-    "sectionSubtitle": "Desde estructura de madera hasta reparación y remodelación de techos de metal — Golden Rooster Construction entrega trabajo de calidad para proyectos residenciales y comerciales.",
+    "sectionSubtitle": "Desde estructura de madera y acero hasta techado, revestimiento, tablaroca y remodelación — Golden Rooster Construction entrega trabajo de calidad para proyectos residenciales y comerciales.",
     "learnMore": "Saber Más",
     "viewAll": "Ver Todos los Servicios",
     "requestQuote": "Solicitar Cotización",
     "serviceTag": "Servicio",
-    "heroTitle": "Estructura de Madera y Techos de Metal",
-    "heroSubtitle": "Soluciones de construcción y techado profesional para proyectos residenciales y comerciales — trabajo de calidad, precios honestos, resultados garantizados.",
+    "heroTitle": "Construcción y Techado Profesional",
+    "heroSubtitle": "Soluciones de construcción para proyectos residenciales y comerciales — techado, estructura, acero, tablaroca, remodelación, revestimiento y más.",
     "items": {
       "wood-framing": {
         "title": "Estructura de Madera",
@@ -69,13 +74,78 @@
           "Canalones, flashings y trabajos de remate",
           "Soluciones de techos de metal residenciales y comerciales"
         ]
+      },
+      "dry-wall": {
+        "title": "Tablaroca (Dry Wall)",
+        "description1": "Golden Rooster Construction ofrece servicios profesionales de instalación de tablaroca para proyectos residenciales y comerciales. Desde nueva construcción hasta remodelación, nuestros equipos entregan acabados lisos y conformes a los códigos que sirven como base perfecta para cualquier espacio interior.",
+        "description2": "Nos encargamos de todo, desde el enmarcado hasta el acabado — cinteado, masillado, lijado y texturizado — asegurando que cada pared y techo cumpla con sus especificaciones exactas. Ya sea que necesite placas resistentes al fuego, tableros resistentes a la humedad o tablaroca estándar, llevamos los materiales y la técnica correcta en cada ocasión.",
+        "features": [
+          "Instalación residencial de tablaroca",
+          "Sistemas comerciales de tablaroca",
+          "Ensambles resistentes al fuego y a la humedad",
+          "Cinteado, masillado y acabado",
+          "Instalación de techos y particiones",
+          "Reparaciones y parches"
+        ]
+      },
+      "remodeling": {
+        "title": "Remodelación",
+        "description1": "Transforme su espacio con las soluciones de remodelación completas de Golden Rooster. Ya sea que esté actualizando una cocina, renovando un baño o renovando un interior comercial, nuestro equipo experimentado aporta creatividad, artesanía y precisión a cada proyecto.",
+        "description2": "Gestionamos cada etapa del proceso de remodelación — desde la planificación inicial y demolición hasta el enmarcado, acabado e inspección final — asegurando la mínima interrupción y los máximos resultados. Nuestro objetivo es entregar un espacio que supere su visión, dentro de su presupuesto y a tiempo.",
+        "features": [
+          "Remodelación de cocinas y baños",
+          "Renovación de interiores comerciales",
+          "Gestión integral de proyectos",
+          "Modificaciones estructurales y ampliaciones",
+          "Trabajos de acabado y carpintería personalizada",
+          "Proyectos residenciales y comerciales"
+        ]
+      },
+      "steel-frame": {
+        "title": "Estructura de Acero",
+        "description1": "Golden Rooster Construction ofrece construcción de estructuras de acero de precisión para proyectos comerciales, industriales y multifamiliares. Nuestros sistemas de enmarcado de acero proporcionan resistencia superior, estabilidad dimensional y flexibilidad de diseño — convirtiéndolos en la opción preferida para aplicaciones de construcción exigentes.",
+        "description2": "Desde enmarcado de acero de calibre ligero para particiones interiores hasta sistemas de acero estructural para grandes edificios comerciales, nuestros equipos están capacitados en las últimas técnicas de construcción en acero y requisitos de código. Trabajamos eficientemente para cumplir con calendarios ajustados sin comprometer la integridad estructural.",
+        "features": [
+          "Enmarcado de acero de calibre ligero",
+          "Estructuras de acero comerciales e industriales",
+          "Aplicaciones multifamiliares y de varios pisos",
+          "Sistemas de particiones interiores",
+          "Cercha de acero y enmarcado de techo",
+          "Construcción conforme a código en todo momento"
+        ]
+      },
+      "roofing": {
+        "title": "Techado",
+        "description1": "Golden Rooster Construction ofrece servicios completos de techado para propiedades residenciales y comerciales en Colorado, Wyoming, Nebraska y California. Nuestros especialistas tienen experiencia con una amplia gama de sistemas — desde tejas de asfalto hasta paneles de metal — entregando instalaciones construidas para resistir los elementos por décadas.",
+        "description2": "Abordamos cada proyecto con atención al detalle, materiales de calidad y métodos de instalación comprobados. Ya sea que esté construyendo nuevo, reemplazando un techo envejecido o tratando con daños por tormenta, nuestro equipo entrega protección duradera en cada trabajo.",
+        "features": [
+          "Techado residencial y comercial nuevo",
+          "Reemplazo de techo y desmontaje",
+          "Reparación de daños por tormenta y trabajo con seguros",
+          "Sistemas de tejas de asfalto",
+          "Paneles de techos de metal",
+          "Techado comercial plano y de pendiente baja"
+        ]
+      },
+      "siding": {
+        "title": "Revestimiento Exterior (Siding)",
+        "description1": "Proteja y embellezca su edificio con la instalación profesional de revestimiento exterior de Golden Rooster Construction. Instalamos una amplia gama de sistemas diseñados para mejorar el aspecto, la eficiencia energética y brindar protección duradera contra el clima para propiedades residenciales y comerciales.",
+        "description2": "Nuestros equipos tienen experiencia con múltiples materiales y perfiles — desde vinilo y cemento de fibra hasta sistemas de paneles de metal — asegurando una instalación precisa y limpia que complementa la arquitectura de su edificio y cumple con los requisitos del código local.",
+        "features": [
+          "Revestimiento de vinilo y cemento de fibra",
+          "Revestimiento exterior de paneles de metal",
+          "Aplicaciones residenciales y comerciales",
+          "Reemplazo y reparación de revestimiento",
+          "Instalación de molduras, sofitos y fascias",
+          "Sistemas sellados resistentes al clima"
+        ]
       }
     },
     "videos": {
       "tag": "Véanos Trabajar",
       "title": "Nuestros Proyectos",
       "titleHighlight": "en Acción",
-      "subtitle": "Imágenes reales de nuestras obras — instalaciones de techos de metal, enmarcado de madera y proyectos comerciales en Texas."
+      "subtitle": "Imágenes reales de nuestras obras — techado, enmarcado, remodelación y proyectos de construcción en Colorado, Wyoming, Nebraska y California."
     },
     "process": {
       "tag": "Cómo Trabajamos",
@@ -157,15 +227,15 @@
       "tag": "Nuestra Historia",
       "title": "25 Años de",
       "titleHighlight": "Precisión y Orgullo",
-      "p1": "Golden Rooster Construction fue fundado en Houston, TX con la firme creencia de que la calidad y la integridad nunca deben comprometerse. Comenzando con solo una camioneta y una pasión por la precisión, construimos la empresa panel por panel, proyecto por proyecto.",
-      "p2": "Hoy somos uno de los nombres más confiables en techos de metal y estructura de madera en Texas. Nuestro equipo de más de 50 artesanos certificados aporta la misma dedicación a cada trabajo — ya sea una instalación residencial personalizada o un complejo comercial de 200,000 pies cuadrados.",
+      "p1": "Golden Rooster Construction fue fundado en Brighton, CO con la firme creencia de que la calidad y la integridad nunca deben comprometerse. Comenzando con solo una camioneta y una pasión por la precisión, construimos la empresa proyecto por proyecto, estado por estado.",
+      "p2": "Hoy somos uno de los nombres más confiables en construcción en Colorado, Wyoming, Nebraska y California. Nuestro equipo de más de 50 artesanos certificados aporta la misma dedicación a cada trabajo — ya sea una remodelación residencial o una gran obra comercial.",
       "p3": "Lo que nos distingue no es solo nuestra experiencia técnica — es la cultura de responsabilidad y orgullo que hemos cultivado durante 25 años. Cuando trabaja con Golden Rooster, no está contratando a un contratista. Está ganando un socio a largo plazo comprometido con el éxito de su proyecto.",
       "milestones": [
-        { "year": "1998", "event": "Fundados en Houston, TX con un equipo de 3 personas y un compromiso de calidad." },
+        { "year": "1998", "event": "Fundados en Brighton, CO con un equipo de 3 personas y un compromiso de calidad." },
         { "year": "2005", "event": "Expansión al techado comercial, obteniendo nuestro primer proyecto de 50,000 pies cuadrados." },
         { "year": "2012", "event": "Apertura de una instalación de fabricación de última generación para la región del Golfo." },
         { "year": "2020", "event": "Alcanzamos 2,000+ proyectos completados y 50+ artesanos calificados de tiempo completo." },
-        { "year": "Hoy", "event": "Líderes de la industria en techos de metal de precisión en Texas y más allá." }
+        { "year": "Hoy", "event": "Líderes de construcción de confianza sirviendo Colorado, Wyoming, Nebraska y California." }
       ]
     },
     "missionVision": {
@@ -213,6 +283,40 @@
       "sub": "Respuesta inmediata · Lun–Vie 8AM–6PM",
       "message": "¡Hola! Me gustaría obtener un estimado gratuito para mi proyecto de construcción o techado."
     },
+    "form": {
+      "title": "Solicitar un Estimado Gratuito",
+      "required": "Todos los campos marcados con * son obligatorios.",
+      "nameLabel": "Nombre Completo",
+      "namePlaceholder": "Juan García",
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "juan@empresa.com",
+      "phoneLabel": "Teléfono",
+      "phonePlaceholder": "(555) 000-0000",
+      "serviceLabel": "Servicio Requerido",
+      "servicePlaceholder": "Seleccione un servicio…",
+      "projectTypeLabel": "Tipo de Proyecto",
+      "messageLabel": "Detalles del Proyecto",
+      "messagePlaceholder": "Describa su proyecto: tamaño, ubicación, plazos, cualquier requisito específico…",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando…",
+      "errorMessage": "Algo salió mal. Por favor intente de nuevo o llámenos directamente.",
+      "privacy": "Al enviar, acepta nuestra Política de Privacidad. Nunca compartimos sus datos.",
+      "successTitle": "¡Mensaje Enviado!",
+      "successMessage": "Gracias por contactarnos. Nuestro equipo revisará su solicitud y responderá dentro de 48 horas hábiles.",
+      "sendAnother": "Enviar otro mensaje",
+      "services": [
+        "Techado",
+        "Techos de Metal — Reparación y Remodelación",
+        "Estructura de Madera",
+        "Estructura de Acero",
+        "Tablaroca",
+        "Remodelación",
+        "Revestimiento Exterior",
+        "Proyecto Comercial",
+        "Otro"
+      ],
+      "projectTypes": ["Comercial", "Residencial", "Industrial", "Institucional"]
+    },
     "email": {
       "title": "Envíanos un Correo",
       "subPrimary": "Consultas generales y estimados",
@@ -225,11 +329,11 @@
       "coverageLabel": "Cobertura",
       "scheduleLabel": "Horario",
       "scheduleValue": "Lun–Vie 7:00 AM – 6:00 PM · Sáb 8:00 AM – 1:00 PM",
-      "coverageValue": "Gran Houston, TX · Dallas · Austin · San Antonio"
+      "coverageValue": "Colorado · Wyoming · Nebraska · California"
     },
     "coverage": {
       "title": "Área de Cobertura",
-      "description": "Atendemos con orgullo el <b>Gran Houston</b>, <b>Dallas</b>, <b>Austin</b> y <b>San Antonio</b> y sus alrededores en Texas.",
+      "description": "Atendemos con orgullo <b>Colorado</b>, <b>Wyoming</b>, <b>Nebraska</b> y <b>California</b> y sus alrededores.",
       "note": "Para proyectos fuera de nuestra área estándar, consúltanos según la envergadura del proyecto."
     }
   },
@@ -246,7 +350,12 @@
       "values": "Nuestros Valores",
       "careers": "Empleos",
       "woodFraming": "Estructura de Madera",
-      "metalRoofing": "Techos de Metal"
+      "metalRoofing": "Techos de Metal",
+      "dryWall": "Tablaroca",
+      "remodeling": "Remodelación",
+      "steelFrame": "Estructura de Acero",
+      "roofing": "Techado",
+      "siding": "Revestimiento Exterior"
     }
   }
 }

@@ -3,13 +3,13 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { motion } from "framer-motion";
-import { Hammer, HardHat, Building2, ArrowRight } from "lucide-react";
+import { Hammer, HardHat, Layers, Wrench, Building2, Home, Grid3X3, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import SectionHeader from "@/components/ui/SectionHeader";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { SERVICES } from "@/lib/constants";
 
-const iconMap: Record<string, React.ElementType> = { Hammer, HardHat };
+const iconMap: Record<string, React.ElementType> = { Hammer, HardHat, Layers, Wrench, Building2, Home, Grid3X3 };
 
 export default function ServicesSection() {
   const t = useTranslations("services");
@@ -32,13 +32,15 @@ export default function ServicesSection() {
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {SERVICES.map((service, i) => {
             const Icon = iconMap[service.icon] ?? Building2;
-            const itemKey = service.id as "wood-framing" | "metal-roofing";
-            const title = t(`items.${itemKey}.title`);
-            const desc = t(`items.${itemKey}.description1`);
-            const features = t.raw(`items.${itemKey}.features`) as string[];
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const title = t(`items.${service.id}.title` as any);
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const desc = t(`items.${service.id}.description1` as any);
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const features = t.raw(`items.${service.id}.features` as any) as string[];
 
             return (
               <ScrollReveal key={service.id} delay={i * 0.08} direction="up" className="group">

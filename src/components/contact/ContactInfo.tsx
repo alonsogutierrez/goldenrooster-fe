@@ -24,6 +24,13 @@ export default function ContactInfo() {
       accent: "red" as const,
     },
     {
+      icon: Mail,
+      label: t("info.emailLabel"),
+      value: SITE.emailAlt,
+      href: SITE.emailAltHref,
+      accent: "red" as const,
+    },
+    {
       icon: MapPin,
       label: t("info.coverageLabel"),
       value: t("info.coverageValue"),
@@ -50,7 +57,7 @@ export default function ContactInfo() {
       <div className="space-y-5">
         {infoItems.map(({ icon: Icon, label, value, href, accent }, i) => (
           <motion.div
-            key={label}
+            key={`${label}-${value}`}
             initial={{ opacity: 0, x: -16 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
