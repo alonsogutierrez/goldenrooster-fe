@@ -44,7 +44,7 @@ export default function ServicesSection() {
 
             return (
               <ScrollReveal key={service.id} delay={i * 0.08} direction="up" className="group">
-                <div className="card h-full flex flex-col p-0 overflow-hidden border-0 rounded-sm shadow-card hover:shadow-card-hover hover:-translate-y-1.5 transition-all duration-350">
+                <div className="card h-full flex flex-col p-0 overflow-hidden border-t-[3px] border-t-accent border border-gray-100 rounded-sm shadow-card hover:shadow-card-hover hover:-translate-y-1.5 hover:border-accent/40 transition-all duration-350">
 
                   {/* Photo header */}
                   <div className="relative h-52 overflow-hidden">
@@ -55,9 +55,9 @@ export default function ServicesSection() {
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
-                    <div className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-60`} />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/5 to-transparent" />
                     <motion.div
-                      className="absolute bottom-4 left-5 w-11 h-11 rounded-sm bg-white/15 backdrop-blur-sm border border-white/25 flex items-center justify-center text-white animate-float-sm"
+                      className="absolute bottom-4 left-5 w-11 h-11 rounded-sm bg-white/15 backdrop-blur-sm border border-white/30 flex items-center justify-center text-white animate-float-sm"
                       style={{ animationDelay: `${i * 0.4}s` }}
                     >
                       <Icon size={22} strokeWidth={1.8} />
