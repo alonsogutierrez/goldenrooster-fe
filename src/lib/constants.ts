@@ -137,8 +137,8 @@ export const PROJECT_VIDEOS = [
    Team — structural data, roles/bios in messages/about.team.members[i]
 ───────────────────────────────────── */
 export const TEAM = [
-  { name: "Guillermo Andrade Moncada", avatar: "/dueño.png" },
   { name: "Iván Said Rodriguez Mauricio", avatar: "/gerente.png" },
+  { name: "Guillermo Andrade Moncada", avatar: "/dueño.png" },
 ];
 
 /* ─────────────────────────────────────
