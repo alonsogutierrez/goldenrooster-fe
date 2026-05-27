@@ -19,10 +19,10 @@ export default async function AboutPage({
     <>
       <AboutHero pageKey="about" />
       <OurStory />
+      <TeamSection />
       <MissionVision />
       <StatsSection />
       <ValuesSection />
-      <TeamSection />
       <CTABanner />
     </>
   );
