@@ -47,7 +47,7 @@ export default function ServicesSection() {
                 <div className="card h-full flex flex-col p-0 overflow-hidden border-t-[3px] border-t-accent border border-gray-100 rounded-sm shadow-card hover:shadow-card-hover hover:-translate-y-1.5 hover:border-accent/40 transition-all duration-350">
 
                   {/* Photo header */}
-                  <div className="relative h-52 overflow-hidden">
+                  <Link href={`/services#${service.id}`} className="relative h-52 overflow-hidden block">
                     <Image
                       src={service.image}
                       alt={title}
@@ -62,12 +62,14 @@ export default function ServicesSection() {
                     >
                       <Icon size={22} strokeWidth={1.8} />
                     </motion.div>
-                  </div>
+                  </Link>
 
                   <div className="flex flex-col gap-4 p-7 flex-1">
-                    <h3 className="font-heading font-bold text-xl text-primary group-hover:text-accent transition-colors duration-300">
-                      {title}
-                    </h3>
+                    <Link href={`/services#${service.id}`}>
+                      <h3 className="font-heading font-bold text-xl text-primary group-hover:text-accent hover:text-accent transition-colors duration-300 cursor-pointer">
+                        {title}
+                      </h3>
+                    </Link>
 
                     <p className="text-gray-500 text-sm leading-relaxed flex-1">{desc}</p>
 
