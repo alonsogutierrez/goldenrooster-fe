@@ -49,7 +49,7 @@ interface VideoGalleryProps {
 
 export default function VideoGallery({ tag, title, titleHighlight, subtitle }: VideoGalleryProps) {
   return (
-    <section className="section-padding bg-gray-50" aria-label="Project videos">
+    <section id="videos" className="section-padding bg-gray-50" aria-label="Project videos">
       <div className="container-xl">
         <div className="text-center mb-12">
           <span className="section-tag">{tag}</span>
