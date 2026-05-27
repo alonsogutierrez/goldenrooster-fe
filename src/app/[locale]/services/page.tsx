@@ -8,7 +8,8 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import CTABanner from "@/components/home/CTABanner";
 import StatsSection from "@/components/home/StatsSection";
 import VideoGallery from "@/components/services/VideoGallery";
-import { SERVICES } from "@/lib/constants";
+import ServiceVideoPlayer from "@/components/services/ServiceVideoPlayer";
+import { SERVICES, PROJECT_VIDEOS } from "@/lib/constants";
 
 const iconMap: Record<string, React.ElementType> = { Hammer, HardHat, Layers, Wrench, Building2, Home, Grid3X3 };
 
@@ -40,6 +41,7 @@ export default async function ServicesPage({
             const desc2 = t(`items.${service.id}.description2` as any);
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             const features = t.raw(`items.${service.id}.features` as any) as string[];
+            const video = PROJECT_VIDEOS.find((v) => v.id === service.videoId);
 
             return (
               <ScrollReveal key={service.id} direction="up" delay={0.05}>
@@ -49,19 +51,28 @@ export default async function ServicesPage({
                     !isEven ? "lg:[&>*:first-child]:order-2" : ""
                   }`}
                 >
-                  <div className="relative rounded-sm overflow-hidden aspect-video shadow-primary-lg group">
-                    <Image
-                      src={service.image}
-                      alt={title}
-                      fill
-                      className="object-cover transition-transform duration-700 group-hover:scale-105"
-                      sizes="(max-width: 1024px) 100vw, 50vw"
+                  {video ? (
+                    <ServiceVideoPlayer
+                      src={video.src}
+                      poster={video.poster}
+                      title={title}
+                      icon={<Icon size={20} strokeWidth={1.8} />}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent" />
-                    <div className="absolute top-4 left-4 w-11 h-11 rounded-sm bg-accent flex items-center justify-center text-white shadow-accent">
-                      <Icon size={20} strokeWidth={1.8} />
+                  ) : (
+                    <div className="relative rounded-sm overflow-hidden aspect-video shadow-primary-lg group">
+                      <Image
+                        src={service.image}
+                        alt={title}
+                        fill
+                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                        sizes="(max-width: 1024px) 100vw, 50vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent" />
+                      <div className="absolute top-4 left-4 w-11 h-11 rounded-sm bg-accent flex items-center justify-center text-white shadow-accent">
+                        <Icon size={20} strokeWidth={1.8} />
+                      </div>
                     </div>
-                  </div>
+                  )}
 
                   <div className="space-y-5">
                     <span className="section-tag">{`${t("serviceTag")} 0${i + 1}`}</span>
