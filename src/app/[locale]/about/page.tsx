@@ -6,6 +6,7 @@ import ValuesSection from "@/components/about/ValuesSection";
 import TeamSection from "@/components/about/TeamSection";
 import CTABanner from "@/components/home/CTABanner";
 import StatsSection from "@/components/home/StatsSection";
+import WatchOurWorkBanner from "@/components/ui/WatchOurWorkBanner";
 
 export default async function AboutPage({
   params,
@@ -23,6 +24,9 @@ export default async function AboutPage({
       <MissionVision />
       <StatsSection />
       <ValuesSection />
+      <section className="section-padding bg-white">
+        <WatchOurWorkBanner />
+      </section>
       <CTABanner />
     </>
   );
