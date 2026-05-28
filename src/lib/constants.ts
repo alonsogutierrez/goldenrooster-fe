@@ -62,11 +62,11 @@ export const NAV_LINKS = [
 export const SERVICES = [
   { id: "wood-framing",  icon: "Hammer",    color: "from-primary-dark to-primary",  image: "/thumbnails/video-9.jpg", videoId: 9 },
   { id: "metal-roofing", icon: "HardHat",   color: "from-accent-dark to-accent",    image: "/thumbnails/video-1.jpg", videoId: 1 },
-  { id: "dry-wall",      icon: "Layers",    color: "from-steel-dark to-steel",       image: "/thumbnails/video-2.jpg", videoId: 2 },
-  { id: "remodeling",    icon: "Wrench",    color: "from-primary to-primary-light",  image: "/thumbnails/video-3.jpg", videoId: 3 },
+  { id: "dry-wall",      icon: "Layers",    color: "from-steel-dark to-steel",       image: "/thumbnails/video-8.jpg", videoId: 8 },
+  { id: "remodeling",    icon: "Wrench",    color: "from-primary to-primary-light",  image: "/thumbnails/video-6.jpg", videoId: 6 },
   { id: "steel-frame",   icon: "Building2", color: "from-steel to-primary",          image: "/thumbnails/video-4.jpg", videoId: 4 },
-  { id: "roofing",       icon: "Home",      color: "from-accent-dark to-accent",     image: "/thumbnails/video-5.jpg", videoId: 5 },
-  { id: "siding",        icon: "Grid3X3",   color: "from-steel-dark to-primary",     image: "/thumbnails/video-6.jpg", videoId: 6 },
+  { id: "roofing",       icon: "Home",      color: "from-accent-dark to-accent",     image: "/thumbnails/video-3.jpg", videoId: 3 },
+  { id: "siding",        icon: "Grid3X3",   color: "from-steel-dark to-primary",     image: "/thumbnails/video-7.jpg", videoId: 7 },
 ];
 
 /* ─────────────────────────────────────
