@@ -285,6 +285,10 @@
       "sub": "Immediate response · Mon–Fri 8AM–6PM",
       "message": "Hi! I'd like a free estimate for my construction or roofing project."
     },
+    "whatsappEngineer": {
+      "title": "WhatsApp — Lead Engineer",
+      "sub": "Direct line to our project lead · (720) 663-4136"
+    },
     "form": {
       "title": "Request a Free Estimate",
       "required": "All fields marked * are required.",

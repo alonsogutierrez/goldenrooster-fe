@@ -122,7 +122,7 @@ const jsonLd = {
     url: "https://www.goldenroostersroofing.com/logo-rooster.png",
   },
   image: "https://www.goldenroostersroofing.com/og-image.jpg",
-  telephone: "+1-800-543-3862",
+  telephone: ["+1-800-543-3862", "+1-720-663-4136"],
   email: "info@goldenroostersroofing.com",
   address: {
     "@type": "PostalAddress",
