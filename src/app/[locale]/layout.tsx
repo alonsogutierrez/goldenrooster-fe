@@ -30,11 +30,28 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.goldenroostersroofing.com"),
   title: {
-    default: "Roofing & Construction Contractor | Golden Rooster Construction",
+    default: "Roofing & Construction Contractor Brighton CO | Golden Rooster Construction",
     template: "%s | Golden Rooster Construction",
   },
   description:
-    "Licensed construction contractor serving Colorado, Wyoming, Nebraska & California. Expert roofing, wood framing, steel frame, dry wall, remodeling & siding. 25+ years. Free estimates — call (800) 543-3862.",
+    "Licensed roofing & construction contractor in Brighton, CO. Serving Denver, Colorado Springs, Fort Collins, Cheyenne WY, Omaha NE & California. Metal roofing, wood framing, steel frame, dry wall, remodeling & siding. Free estimates — (800) 543-3862.",
+  keywords: [
+    "roofing contractor Colorado",
+    "metal roofing Brighton CO",
+    "construction contractor Colorado",
+    "wood framing contractor Colorado",
+    "steel frame construction",
+    "drywall contractor Colorado",
+    "roofing contractor Brighton",
+    "roofing Denver CO",
+    "roofing Colorado Springs",
+    "remodeling contractor Colorado",
+    "siding contractor Colorado",
+    "commercial roofing Colorado",
+    "residential roofing Colorado",
+    "techado Colorado",
+    "contratista construcción Colorado",
+  ],
   authors: [{ name: "Golden Rooster Construction" }],
   creator: "Golden Rooster Construction",
   icons: {
@@ -51,18 +68,26 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://www.goldenroostersroofing.com",
-    title: "Roofing & Construction Contractor | Golden Rooster Construction",
+    title: "Roofing & Construction Contractor Brighton CO | Golden Rooster Construction",
     description:
-      "Licensed construction contractor serving Colorado, Wyoming, Nebraska & California. Roofing, framing, steel frame, dry wall, remodeling & siding. 25+ years of experience. Free estimates.",
+      "Licensed roofing & construction contractor in Brighton, CO. Metal roofing, wood framing, steel frame, dry wall, remodeling & siding. Serving Colorado, Wyoming, Nebraska & California. Free estimates.",
     siteName: "Golden Rooster Construction",
+    locale: "en_US",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Golden Rooster Construction — Roofing & Construction Contractor",
+        alt: "Golden Rooster Construction — Roofing & Construction Contractor Brighton CO",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Roofing & Construction Contractor Brighton CO | Golden Rooster Construction",
+    description:
+      "Licensed roofing & construction contractor in Brighton, CO. Metal roofing, wood framing, steel frame, dry wall, remodeling & siding. Free estimates.",
+    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -75,17 +100,27 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  alternates: {
+    canonical: "https://www.goldenroostersroofing.com/en",
+    languages: {
+      "en": "https://www.goldenroostersroofing.com/en",
+      "es": "https://www.goldenroostersroofing.com/es",
+    },
+  },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
-  "@id": "https://www.goldenroostersroofing.com",
+  "@id": "https://www.goldenroostersroofing.com/#business",
   name: "Golden Rooster Construction",
   description:
-    "Licensed metal roofing contractor in Houston, TX. Expert in standing seam installation, metal roof repair & remodeling, and wood framing.",
+    "Licensed roofing and construction contractor in Brighton, CO. Specializing in metal roofing, wood framing, steel frame, drywall, remodeling, and siding for residential and commercial projects across Colorado, Wyoming, Nebraska, and California.",
   url: "https://www.goldenroostersroofing.com",
-  logo: "https://www.goldenroostersroofing.com/logo-rooster.png",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.goldenroostersroofing.com/logo-rooster.png",
+  },
   image: "https://www.goldenroostersroofing.com/og-image.jpg",
   telephone: "+1-800-543-3862",
   email: "info@goldenroostersroofing.com",
@@ -102,12 +137,45 @@ const jsonLd = {
     latitude: "40.0753",
     longitude: "-104.8124",
   },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "07:00",
+      closes: "18:00",
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: "Saturday",
+      opens: "08:00",
+      closes: "13:00",
+    },
+  ],
   areaServed: [
+    { "@type": "City", name: "Brighton", containedInPlace: { "@type": "State", name: "Colorado" } },
+    { "@type": "City", name: "Denver", containedInPlace: { "@type": "State", name: "Colorado" } },
+    { "@type": "City", name: "Colorado Springs", containedInPlace: { "@type": "State", name: "Colorado" } },
+    { "@type": "City", name: "Fort Collins", containedInPlace: { "@type": "State", name: "Colorado" } },
+    { "@type": "City", name: "Cheyenne", containedInPlace: { "@type": "State", name: "Wyoming" } },
+    { "@type": "City", name: "Omaha", containedInPlace: { "@type": "State", name: "Nebraska" } },
     { "@type": "AdministrativeArea", name: "Colorado" },
     { "@type": "AdministrativeArea", name: "Wyoming" },
     { "@type": "AdministrativeArea", name: "Nebraska" },
     { "@type": "AdministrativeArea", name: "California" },
   ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Construction & Roofing Services",
+    itemListElement: [
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Metal Roofing", description: "Metal roof installation, repair, and remodeling for residential and commercial properties." } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Wood Framing", description: "Professional wood framing for residential and commercial construction projects." } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Steel Frame Construction", description: "Light-gauge and structural steel frame systems for commercial and industrial buildings." } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Drywall Installation", description: "Drywall installation, taping, mudding and finishing for residential and commercial interiors." } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Remodeling", description: "Full-service residential and commercial remodeling and renovation." } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Roofing", description: "New roofing installation, replacement, and storm damage repair for all roof types." } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Siding", description: "Vinyl, fiber cement, and metal panel siding installation and replacement." } },
+    ],
+  },
   priceRange: "$$",
   sameAs: [
     "https://www.facebook.com/goldenroostersroofing",

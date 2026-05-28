@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
@@ -13,6 +14,78 @@ import { SERVICES, PROJECT_VIDEOS } from "@/lib/constants";
 
 const iconMap: Record<string, React.ElementType> = { Hammer, HardHat, Layers, Wrench, Building2, Home, Grid3X3 };
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const isEs = locale === "es";
+
+  return {
+    title: isEs
+      ? "Servicios de Construcción y Techado Colorado | Golden Rooster Construction"
+      : "Roofing & Construction Services Colorado | Golden Rooster Construction",
+    description: isEs
+      ? "Servicios completos de construcción en Colorado: techado de metal, estructura de madera, estructura de acero, tablaroca, remodelación y revestimiento. Residencial y comercial. Estimados gratis."
+      : "Full-service construction in Colorado: metal roofing, wood framing, steel frame, drywall, remodeling & siding. Residential & commercial. Serving Denver, Colorado Springs, Fort Collins & Brighton. Free estimates.",
+    alternates: {
+      canonical: `https://www.goldenroostersroofing.com/${locale}/services`,
+      languages: {
+        en: "https://www.goldenroostersroofing.com/en/services",
+        es: "https://www.goldenroostersroofing.com/es/services",
+      },
+    },
+  };
+}
+
+const servicesFaqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Do you install metal roofing in Colorado?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Golden Rooster Construction installs, repairs, and remodels metal roofing for residential and commercial properties throughout Colorado, including Denver, Colorado Springs, Fort Collins, Brighton, and Pueblo.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What types of roofing do you install?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We install metal roofing panels, asphalt shingles, flat and low-slope commercial roofing systems, and standing seam metal roofs. We also handle roof replacement, tear-off, and storm damage repairs.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer wood framing for new construction in Colorado?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. We specialize in wood framing for new residential and commercial construction — single-family homes, multi-family developments, and commercial facilities throughout Colorado.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you do drywall and remodeling in Colorado?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Golden Rooster Construction provides professional drywall installation, taping, mudding, and full interior remodeling services for residential and commercial projects in Colorado.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you serve Wyoming and Nebraska as well?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. We serve clients in Colorado, Wyoming (including Cheyenne), Nebraska (including Omaha), and California for both residential and commercial construction and roofing projects.",
+      },
+    },
+  ],
+};
+
 export default async function ServicesPage({
   params,
 }: {
@@ -26,6 +99,10 @@ export default async function ServicesPage({
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesFaqJsonLd) }}
+      />
       <AboutHero pageKey="services" />
 
       <section className="section-padding bg-white" aria-label="Service details">
