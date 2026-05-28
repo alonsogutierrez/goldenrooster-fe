@@ -9,7 +9,6 @@ export default function ContactChannels() {
   const t = useTranslations("contact");
 
   const whatsappUrl = `https://wa.me/${SITE.whatsappNumber}?text=${encodeURIComponent(t("whatsapp.message"))}`;
-  const whatsappEngineerUrl = `https://wa.me/${SITE.whatsappEngineerNumber}?text=${encodeURIComponent(t("whatsapp.message"))}`;
 
   const emailCards = [
     { address: SITE.email, href: SITE.emailHref, sub: t("email.subPrimary") },
@@ -35,29 +34,6 @@ export default function ContactChannels() {
         <div className="flex-1 min-w-0">
           <p className="font-heading font-bold text-primary text-lg leading-tight">{t("whatsapp.title")}</p>
           <p className="text-gray-400 text-sm mt-0.5">{t("whatsapp.sub")}</p>
-        </div>
-        <span className="text-[#25D366] text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex-shrink-0">
-          {t("openAction")} →
-        </span>
-      </motion.a>
-
-      {/* WhatsApp — engineer direct line */}
-      <motion.a
-        href={whatsappEngineerUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.4, delay: 0.05 }}
-        className="group flex items-center gap-5 p-6 bg-white rounded-sm border border-gray-100 shadow-card hover:border-[#25D366] hover:bg-[#25D366]/5 transition-all duration-200 cursor-pointer"
-      >
-        <div className="w-12 h-12 rounded-sm bg-[#25D366] flex items-center justify-center flex-shrink-0">
-          <MessageCircle size={22} className="text-white" strokeWidth={1.8} />
-        </div>
-        <div className="flex-1 min-w-0">
-          <p className="font-heading font-bold text-primary text-lg leading-tight">{t("whatsappEngineer.title")}</p>
-          <p className="text-gray-400 text-sm mt-0.5">{t("whatsappEngineer.sub")}</p>
         </div>
         <span className="text-[#25D366] text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex-shrink-0">
           {t("openAction")} →

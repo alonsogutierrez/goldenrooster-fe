@@ -17,13 +17,6 @@ export default function ContactInfo() {
       accent: "red" as const,
     },
     {
-      icon: Phone,
-      label: "WhatsApp — Lead Engineer",
-      value: SITE.phoneEngineer,
-      href: SITE.phoneEngineerHref,
-      accent: "red" as const,
-    },
-    {
       icon: Mail,
       label: t("info.emailLabel"),
       value: SITE.email,

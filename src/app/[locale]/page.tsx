@@ -21,8 +21,8 @@ export async function generateMetadata({
       ? "Contratista de Techado y Construcción Brighton CO | Golden Rooster Construction"
       : "Roofing & Construction Contractor Brighton CO | Golden Rooster Construction",
     description: isEs
-      ? "Contratista licenciado de techado y construcción en Brighton, CO. Techado de metal, estructura de madera, acero, tablaroca, remodelación y revestimiento. Servimos Denver, Colorado Springs, Fort Collins y más. Estimados gratis — (800) 543-3862."
-      : "Licensed roofing & construction contractor in Brighton, CO. Metal roofing, wood framing, steel frame, drywall, remodeling & siding. Serving Denver, Colorado Springs, Fort Collins, Cheyenne WY & Omaha NE. Free estimates — (800) 543-3862.",
+      ? "Contratista licenciado de techado y construcción en Brighton, CO. Techado de metal, estructura de madera, acero, tablaroca, remodelación y revestimiento. Servimos Denver, Colorado Springs, Fort Collins y más. Estimados gratis — (720) 663-4136."
+      : "Licensed roofing & construction contractor in Brighton, CO. Metal roofing, wood framing, steel frame, drywall, remodeling & siding. Serving Denver, Colorado Springs, Fort Collins, Cheyenne WY & Omaha NE. Free estimates — (720) 663-4136.",
     alternates: {
       canonical: `https://www.goldenroostersroofing.com/${locale}`,
       languages: {
@@ -42,7 +42,7 @@ const faqJsonLd = {
       name: "How much does metal roofing cost in Colorado?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Metal roofing in Colorado typically costs between $7 and $15 per square foot installed, depending on the system, material gauge, and project scope. Golden Rooster Construction provides free on-site estimates — call (800) 543-3862.",
+        text: "Metal roofing in Colorado typically costs between $7 and $15 per square foot installed, depending on the system, material gauge, and project scope. Golden Rooster Construction provides free on-site estimates — call (720) 663-4136.",
       },
     },
     {

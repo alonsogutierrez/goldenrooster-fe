@@ -82,10 +82,6 @@ export default function Footer() {
                 <Phone size={14} className="text-accent/60 group-hover:text-accent flex-shrink-0" />
                 {SITE.phone}
               </a>
-              <a href={SITE.phoneEngineerHref} className="flex items-center gap-2.5 text-white/60 hover:text-accent text-sm transition-colors duration-200 group">
-                <Phone size={14} className="text-accent/60 group-hover:text-accent flex-shrink-0" />
-                {SITE.phoneEngineer}
-              </a>
               <a href={SITE.emailHref} className="flex items-center gap-2.5 text-white/60 hover:text-accent text-sm transition-colors duration-200 group">
                 <Mail size={14} className="text-accent/60 group-hover:text-accent flex-shrink-0" />
                 {SITE.email}

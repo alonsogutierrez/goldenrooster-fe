@@ -285,10 +285,6 @@
       "sub": "Respuesta inmediata · Lun–Vie 8AM–6PM",
       "message": "¡Hola! Me gustaría obtener un estimado gratuito para mi proyecto de construcción o techado."
     },
-    "whatsappEngineer": {
-      "title": "WhatsApp — Ingeniero Principal",
-      "sub": "Línea directa con el encargado del proyecto · (720) 663-4136"
-    },
     "form": {
       "title": "Solicitar un Estimado Gratuito",
       "required": "Todos los campos marcados con * son obligatorios.",

@@ -18,7 +18,7 @@ export async function generateMetadata({
       : "Contact | Free Roofing & Construction Estimate Brighton CO | Golden Rooster",
     description: isEs
       ? "Solicita tu estimado gratis con Golden Rooster Construction en Brighton, CO. Respondemos en menos de 48 horas. Techado, construcción, remodelación — servicio en Colorado, Wyoming, Nebraska y California."
-      : "Request your free estimate from Golden Rooster Construction in Brighton, CO. We respond within 48 hours. Roofing, framing, remodeling — serving Colorado, Wyoming, Nebraska & California. Call (800) 543-3862.",
+      : "Request your free estimate from Golden Rooster Construction in Brighton, CO. We respond within 48 hours. Roofing, framing, remodeling — serving Colorado, Wyoming, Nebraska & California. Call (720) 663-4136.",
     alternates: {
       canonical: `https://www.goldenroostersroofing.com/${locale}/contact`,
       languages: {

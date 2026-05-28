@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     template: "%s | Golden Rooster Construction",
   },
   description:
-    "Licensed roofing & construction contractor in Brighton, CO. Serving Denver, Colorado Springs, Fort Collins, Cheyenne WY, Omaha NE & California. Metal roofing, wood framing, steel frame, dry wall, remodeling & siding. Free estimates — (800) 543-3862.",
+    "Licensed roofing & construction contractor in Brighton, CO. Serving Denver, Colorado Springs, Fort Collins, Cheyenne WY, Omaha NE & California. Metal roofing, wood framing, steel frame, dry wall, remodeling & siding. Free estimates — (720) 663-4136.",
   keywords: [
     "roofing contractor Colorado",
     "metal roofing Brighton CO",
@@ -122,7 +122,7 @@ const jsonLd = {
     url: "https://www.goldenroostersroofing.com/logo-rooster.png",
   },
   image: "https://www.goldenroostersroofing.com/og-image.jpg",
-  telephone: ["+1-800-543-3862", "+1-720-663-4136"],
+  telephone: "+1-720-663-4136",
   email: "info@goldenroostersroofing.com",
   address: {
     "@type": "PostalAddress",
