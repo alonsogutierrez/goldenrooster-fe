@@ -25,47 +25,101 @@ export default function WhyUsSection() {
       <div className="container-xl relative z-10">
         <div className="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
 
+          {/* ── Collage column ── */}
           <ScrollReveal direction="left" delay={0}>
-            <div className="relative">
-              <div className="relative rounded-sm overflow-hidden aspect-[4/5] shadow-primary-lg">
-                <Image
-                  src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=900&q=80"
-                  alt="Golden Rooster Construction team at work"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent" />
+            <div className="relative select-none">
+
+              {/* Orange accent frame behind */}
+              <div className="absolute -bottom-3 -right-3 w-[calc(100%-2rem)] h-[calc(100%-2rem)] border-2 border-accent/30 rounded-sm pointer-events-none z-0" />
+
+              {/* Main grid */}
+              <div
+                className="relative z-10 grid gap-2 rounded-sm overflow-hidden shadow-primary-lg"
+                style={{ gridTemplateColumns: "3fr 2fr", gridTemplateRows: "11rem 11rem" }}
+              >
+                {/* Large: Denver commercial project — spans both rows */}
+                <div className="row-span-2 relative overflow-hidden group">
+                  <Image
+                    src="/project-denver.jpeg"
+                    alt="Commercial construction project completed by Golden Rooster in Denver, CO"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    sizes="(max-width: 1024px) 60vw, 30vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent" />
+                  <div className="absolute bottom-3 left-3 right-2">
+                    <span className="inline-block bg-accent text-white text-[9px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm">
+                      Denver, CO
+                    </span>
+                  </div>
+                </div>
+
+                {/* Top-right: crew on rooftop */}
+                <div className="relative overflow-hidden group">
+                  <Image
+                    src="/crew-rooftop.jpeg"
+                    alt="Golden Rooster crew working on a commercial rooftop project"
+                    fill
+                    className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                    sizes="(max-width: 1024px) 40vw, 20vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-b from-primary/30 to-transparent" />
+                </div>
+
+                {/* Bottom-right: team photo */}
+                <div className="relative overflow-hidden group">
+                  <Image
+                    src="/team-photo.jpeg"
+                    alt="Golden Rooster Construction team — licensed & insured professionals"
+                    fill
+                    className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                    sizes="(max-width: 1024px) 40vw, 20vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent" />
+                </div>
               </div>
 
-              <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-accent/25 rounded-sm pointer-events-none" />
-
+              {/* Floating badge: 25+ years */}
               <motion.div
-                className="absolute -bottom-5 -left-5 bg-accent text-white rounded-sm p-5 shadow-accent-lg"
+                className="absolute -bottom-5 -left-5 bg-accent text-white rounded-sm p-4 shadow-accent-lg z-20"
                 animate={{ y: [0, -6, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               >
                 <div className="font-heading font-black text-3xl leading-none">25+</div>
-                <div className="text-white/80 text-[10px] font-semibold uppercase tracking-widest mt-1 whitespace-pre-line">
+                <div className="text-white/80 text-[9px] font-semibold uppercase tracking-widest mt-1 whitespace-pre-line">
                   {t("yearsLabel")}
                 </div>
               </motion.div>
 
+              {/* Floating badge: 2500+ projects */}
               <motion.div
-                className="absolute -right-6 top-12 w-36 h-36 rounded-sm overflow-hidden shadow-2xl border-2 border-white hidden md:block"
+                className="absolute -top-4 -right-4 bg-primary text-white rounded-sm px-4 py-3 shadow-primary-lg z-20 hidden md:block"
                 animate={{ y: [0, 5, 0] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1.2 }}
+              >
+                <div className="font-heading font-black text-2xl leading-none text-accent">2500+</div>
+                <div className="text-white/70 text-[9px] font-semibold uppercase tracking-widest mt-1">
+                  Projects Done
+                </div>
+              </motion.div>
+
+              {/* Worker portrait floating thumbnail */}
+              <motion.div
+                className="absolute bottom-10 -right-6 w-20 h-20 rounded-sm overflow-hidden shadow-2xl border-2 border-white z-20 hidden md:block"
+                animate={{ y: [0, -4, 0] }}
+                transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=300&q=80"
-                  alt="Metal roofing detail"
+                  src="/trabajador1.jpeg"
+                  alt="Golden Rooster certified construction worker"
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                 />
               </motion.div>
             </div>
           </ScrollReveal>
 
+          {/* ── Text column ── */}
           <div>
             <SectionHeader
               tag={t("tag")}
